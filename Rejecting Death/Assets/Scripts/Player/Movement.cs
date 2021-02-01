@@ -8,6 +8,8 @@ public class Movement : MonoBehaviour
     [SerializeField]
     public float moveSpeed = 1;
 
+    float horizontalMovement = 0f;
+
     [SerializeField]
     float jumpSpeed = 1;
 
@@ -22,38 +24,15 @@ public class Movement : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void FixedUpdate()
+
+    private void Update()
     {
-        if(playerRigidbody != null)
+        var movement = Input.GetAxis("Horizontal");
+        transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * moveSpeed;
+
+        if (Input.GetButtonDown("Jump") && Mathf.Abs(playerRigidbody.velocity.y) < 20f)
         {
-            ApplyInput();
+            playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
         }
-        else
-        {
-            Debug.LogWarning("Rigid body not attached to player " + gameObject.name);
-        }
-        float h = Input.GetAxis("Horizontal");
-
-        bool player_jump = Input.GetButtonDown("Jump");
-
-        if (player_jump && isGrounded)
-        {
-            
-        }
-    }
-
-    public void ApplyInput()
-    {
-        float xInput = Input.GetAxis("Horizontal");
-        float yInput = Input.GetAxis("Vertical");
-
-        float xForce = xInput * moveSpeed * Time.deltaTime;
-
-        Vector2 force = new Vector2(xForce, 0);
-
-        playerRigidbody.AddForce(force);
-
-        Debug.Log(xForce);
-        Debug.Log(playerRigidbody.velocity);
     }
 }
