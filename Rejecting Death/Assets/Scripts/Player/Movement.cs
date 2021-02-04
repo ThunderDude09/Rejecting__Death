@@ -32,7 +32,28 @@ public class Movement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && Mathf.Abs(playerRigidbody.velocity.y) < 20f)
         {
-            playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+            if (isGrounded)
+            {
+                playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+            }
+            
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ground"))
+        {
+            isGrounded = false;
+        }
+    }
+
 }
