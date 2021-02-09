@@ -19,11 +19,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -35,11 +32,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     x: 616
     y: 51
@@ -55,13 +49,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -92,11 +83,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -110,11 +98,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     width: 960
     height: 931
@@ -134,13 +119,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,11 +145,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -179,11 +158,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     width: 277
     height: 931
@@ -199,13 +175,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -233,9 +206,6 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -246,6 +216,10 @@ MonoBehaviour:
     width: 204
     height: 424
 >>>>>>> parent of 309ee91... fix
+=======
+    width: 409
+    height: 428
+>>>>>>> parent of 8d84dc8... 4
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
 =======
@@ -280,11 +254,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     y: 428
     width: 1367
     height: 519
@@ -304,7 +275,6 @@ MonoBehaviour:
     width: 1367
     height: 519
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
     y: 428
     width: 1367
@@ -312,8 +282,6 @@ MonoBehaviour:
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -347,11 +315,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     width: 1920
     height: 997
 =======
@@ -367,15 +332,12 @@ MonoBehaviour:
     width: 1920
     height: 997
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
     width: 1920
     height: 997
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -400,11 +362,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     width: 1920
 =======
     width: 960
@@ -416,14 +375,11 @@ MonoBehaviour:
 =======
     width: 1920
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
     width: 1920
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -449,11 +405,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     y: 977
     width: 1920
 =======
@@ -469,15 +422,12 @@ MonoBehaviour:
     y: 977
     width: 1920
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
     y: 977
     width: 1920
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -505,11 +455,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -523,11 +470,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     width: 683
     height: 931
@@ -547,13 +491,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -578,11 +519,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -596,11 +534,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     width: 683
     height: 421
@@ -620,13 +555,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -649,11 +581,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     width: 958
     height: 428
 =======
@@ -669,15 +598,12 @@ MonoBehaviour:
     width: 958
     height: 428
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
     width: 958
     height: 428
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -739,11 +665,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -755,11 +678,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     x: 616
     y: 502
@@ -775,13 +695,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -813,11 +730,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     m_SelectedIDs: 8a390000
     m_LastClickedID: 14730
     m_ExpandedIDs: 000000007c3900007e39000000ca9a3b
@@ -837,7 +751,6 @@ MonoBehaviour:
     m_LastClickedID: 14730
     m_ExpandedIDs: 000000007c3900007e39000000ca9a3b
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
     m_SelectedIDs: 8a390000
     m_LastClickedID: 14730
@@ -845,8 +758,6 @@ MonoBehaviour:
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -879,11 +790,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     m_ExpandedIDs: 000000007c3900007e390000
 =======
     m_ExpandedIDs: 00000000803900008239000084390000
@@ -895,14 +803,11 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 000000007c3900007e390000
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
     m_ExpandedIDs: 000000007c3900007e390000
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -984,11 +889,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -1000,11 +902,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     x: 1299
     y: 81
@@ -1020,13 +919,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -1066,11 +962,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -1082,11 +975,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     x: 616
     y: 81
@@ -1102,13 +992,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -1118,11 +1005,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 5efbffff
@@ -1142,7 +1026,6 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: 5efbffff
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -1150,8 +1033,6 @@ MonoBehaviour:
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1201,11 +1082,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -1217,11 +1095,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     x: 820
     y: 81
@@ -1237,13 +1112,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 92a09f97495ef2243ad6070adc58baac
@@ -1260,11 +1132,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     m_Target: {x: 5.232442, y: 2.3724375, z: -3.7285156}
     speed: 2
     m_Value: {x: 5.232442, y: 2.3724375, z: -3.7285156}
@@ -1284,7 +1153,6 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 5.232442, y: 2.3724375, z: -3.7285156}
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
     m_Target: {x: 5.232442, y: 2.3724375, z: -3.7285156}
     speed: 2
@@ -1292,8 +1160,6 @@ MonoBehaviour:
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1348,11 +1214,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     m_Target: 4.572771
     speed: 2
     m_Value: 4.572771
@@ -1372,7 +1235,6 @@ MonoBehaviour:
     speed: 2
     m_Value: 4.572771
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
     m_Target: 4.572771
     speed: 2
@@ -1380,8 +1242,6 @@ MonoBehaviour:
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1432,11 +1292,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -1448,11 +1305,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
     x: 820
     y: 81
@@ -1468,13 +1322,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -1525,11 +1376,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -1541,11 +1389,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
       width: 477
       height: 379
@@ -1561,13 +1406,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1579,11 +1421,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
@@ -1598,11 +1437,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
 =======
       x: -59.224575
       y: -78.37265
@@ -1624,13 +1460,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 8d84dc8... 4
 =======
 >>>>>>> parent of 668904b... 5
-=======
->>>>>>> parent of 6c01e5b... 5
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
