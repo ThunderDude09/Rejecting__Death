@@ -29,10 +29,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -86,6 +89,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     x: 616
     y: 51
@@ -111,6 +115,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -151,10 +157,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -188,6 +197,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 86a2972... Revert "7"
 <<<<<<< HEAD
@@ -201,12 +211,17 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
     width: 960
     height: 931
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a475ba1... 5
   vertical: 0
   controlID: 63
 >>>>>>> parent of 86a2972... Revert "7"
@@ -238,6 +253,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   vertical: 0
   controlID: 63
@@ -257,6 +273,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,10 +307,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -321,6 +342,7 @@ MonoBehaviour:
 =======
     width: 275
     height: 938
+<<<<<<< HEAD
 =======
     width: 277
     height: 931
@@ -329,6 +351,8 @@ MonoBehaviour:
     width: 277
     height: 931
 >>>>>>> parent of 86a2972... Revert "7"
+=======
+>>>>>>> parent of a475ba1... 5
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> parent of 309ee91... fix
@@ -376,6 +400,9 @@ MonoBehaviour:
     width: 204
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a475ba1... 5
     height: 424
 >>>>>>> parent of 309ee91... fix
 =======
@@ -390,6 +417,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> parent of 86a2972... Revert "7"
+<<<<<<< HEAD
 =======
     height: 421
   m_MinSize: {x: 200, y: 200}
@@ -400,6 +428,8 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> parent of 86a2972... Revert "7"
+=======
+>>>>>>> parent of a475ba1... 5
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -436,10 +466,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -486,6 +519,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     y: 421
     width: 683
@@ -508,6 +542,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -551,10 +587,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -595,6 +634,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     width: 960
     height: 981
@@ -614,6 +654,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -648,10 +690,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -686,6 +731,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     width: 960
 >>>>>>> parent of 86a2972... Revert "7"
@@ -702,6 +748,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -737,10 +785,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -781,6 +832,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     y: 961
     width: 960
@@ -800,6 +852,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -855,11 +909,10 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
     width: 683
-    height: 931
-  m_MinSize: {x: 402, y: 492}
+    height: 938
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-<<<<<<< HEAD
   controlID: 69
 >>>>>>> parent of 309ee91... fix
 <<<<<<< HEAD
@@ -880,6 +933,7 @@ MonoBehaviour:
 >>>>>>> parent of c1140ca... 5
 =======
 >>>>>>> parent of 594ac81... 5
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   controlID: 64
@@ -902,6 +956,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -954,11 +1010,10 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
     width: 683
-    height: 421
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+    height: 424
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-<<<<<<< HEAD
   controlID: 44
 >>>>>>> parent of 309ee91... fix
 <<<<<<< HEAD
@@ -979,6 +1034,7 @@ MonoBehaviour:
 >>>>>>> parent of c1140ca... 5
 =======
 >>>>>>> parent of 594ac81... 5
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   controlID: 65
@@ -1001,6 +1057,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1035,6 +1093,9 @@ MonoBehaviour:
     width: 479
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a475ba1... 5
     height: 424
 >>>>>>> parent of 309ee91... fix
 <<<<<<< HEAD
@@ -1060,6 +1121,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     height: 421
 >>>>>>> parent of 86a2972... Revert "7"
@@ -1076,6 +1138,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -1147,10 +1211,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -1204,6 +1271,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     x: 616
     y: 502
@@ -1229,6 +1297,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -1243,11 +1313,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Player
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Player
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Brayden\Documents\2D Game\Rejecting_Death\Rejecting
     Death
@@ -1270,10 +1340,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -1320,6 +1393,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_SelectedIDs: 94390000
     m_LastClickedID: 14740
@@ -1342,6 +1416,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1384,10 +1460,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -1422,6 +1501,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_ExpandedIDs: 00000000803900008239000084390000
 >>>>>>> parent of 86a2972... Revert "7"
@@ -1438,6 +1518,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1464,7 +1546,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1529,10 +1611,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -1586,6 +1671,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     x: 1299
     y: 81
@@ -1611,6 +1697,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -1623,7 +1711,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 255
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1660,10 +1748,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -1717,6 +1808,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     x: 616
     y: 81
@@ -1742,6 +1834,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -1761,10 +1855,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -1811,6 +1908,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       m_SelectedIDs: 3c390000
       m_LastClickedID: 14652
@@ -1833,6 +1931,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1892,10 +1992,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -1949,6 +2052,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     x: 820
     y: 81
@@ -1974,6 +2078,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 92a09f97495ef2243ad6070adc58baac
@@ -2000,10 +2106,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -2050,6 +2159,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_Target: {x: 3.1277907, y: 0.8658519, z: -0.9238281}
     speed: 2
@@ -2072,6 +2182,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2136,10 +2248,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -2186,6 +2301,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_Target: 9.417212
     speed: 2
@@ -2208,6 +2324,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2268,10 +2386,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -2325,6 +2446,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     x: 820
     y: 81
@@ -2350,6 +2472,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -2425,6 +2549,9 @@ MonoBehaviour:
       width: 477
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a475ba1... 5
       height: 382
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 238.5, y: 191}
@@ -2450,6 +2577,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       height: 379
     m_Scale: {x: 3.4341946, y: 3.4341943}
@@ -2472,6 +2600,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -2493,10 +2623,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
 =======
 >>>>>>> parent of 594ac81... 5
 =======
@@ -2531,6 +2664,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 86a2972... Revert "7"
 <<<<<<< HEAD
@@ -2544,12 +2678,17 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
       x: -59.224575
       y: -78.37265
       width: 138.8972
       height: 110.36067
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a475ba1... 5
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 477, y: 400}
@@ -2584,6 +2723,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_MinimalGUI: 1
   m_defaultScale: 1
@@ -2606,6 +2746,8 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 5e4162f... 5
+=======
+>>>>>>> parent of a475ba1... 5
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
