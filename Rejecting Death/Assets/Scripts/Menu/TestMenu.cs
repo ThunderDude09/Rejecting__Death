@@ -39,8 +39,8 @@ public class TestMenu : MonoBehaviour
 
     public void PressStart()
     {
-        buttonText.text = "Pressed";
-        myButton.image.color = Color.red;
+        //buttonText.text = "Pressed";
+        //myButton.image.color = Color.red;
         SceneManager.LoadScene(goToLevel);
     }
 
