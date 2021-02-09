@@ -139,11 +139,8 @@ NavMeshSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of d41cccf... a
-=======
->>>>>>> parent of b49ecdf... a
 =======
 >>>>>>> parent of a475ba1... 5
 =======
@@ -152,7 +149,6 @@ NavMeshSettings:
 <<<<<<< HEAD
 >>>>>>> parent of a475ba1... 5
 =======
-<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of a475ba1... 5
@@ -160,9 +156,9 @@ NavMeshSettings:
 >>>>>>> parent of 11c6f63... sdf
 =======
 >>>>>>> parent of d41cccf... a
-=======
->>>>>>> parent of b49ecdf... a
 >>>>>>> parent of 594ac81... 5
+=======
+>>>>>>> parent of d1eacc8... 5
 =======
 >>>>>>> parent of c1140ca... 5
 =======
@@ -496,11 +492,8 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of d41cccf... a
-=======
->>>>>>> parent of b49ecdf... a
 =======
 >>>>>>> parent of a475ba1... 5
 =======
@@ -509,7 +502,6 @@ Transform:
 <<<<<<< HEAD
 >>>>>>> parent of a475ba1... 5
 =======
-<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of a475ba1... 5
@@ -517,9 +509,9 @@ Transform:
 >>>>>>> parent of 11c6f63... sdf
 =======
 >>>>>>> parent of d41cccf... a
-=======
->>>>>>> parent of b49ecdf... a
 >>>>>>> parent of 594ac81... 5
+=======
+>>>>>>> parent of d1eacc8... 5
 =======
 >>>>>>> parent of c1140ca... 5
 =======
@@ -538,7 +530,6 @@ Transform:
 >>>>>>> parent of 86a2972... Revert "7"
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 =======
@@ -547,10 +538,6 @@ Transform:
 >>>>>>> parent of 11c6f63... sdf
 =======
 >>>>>>> parent of d41cccf... a
-=======
-=======
->>>>>>> parent of a475ba1... 5
->>>>>>> parent of b49ecdf... a
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -625,23 +612,20 @@ CanvasRenderer:
   m_GameObject: {fileID: 726479795}
   m_CullTransparentMesh: 0
 --- !u!1 &760166519
-<<<<<<< HEAD
 >>>>>>> parent of d1eacc8... 5
 =======
 >>>>>>> parent of a475ba1... 5
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 5e4162f... 5
 <<<<<<< HEAD
 =======
 --- !u!1 &1011286367
 >>>>>>> parent of a475ba1... 5
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 11c6f63... sdf
 =======
 >>>>>>> parent of d41cccf... a
-=======
->>>>>>> parent of b49ecdf... a
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -655,21 +639,16 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 11c6f63... sdf
 =======
 >>>>>>> parent of d41cccf... a
-=======
->>>>>>> parent of b49ecdf... a
   - component: {fileID: 726479796}
   - component: {fileID: 726479798}
   - component: {fileID: 726479797}
   m_Layer: 5
   m_Name: dot
 =======
-=======
->>>>>>> parent of 5e4162f... 5
   - component: {fileID: 760166520}
   - component: {fileID: 760166522}
   - component: {fileID: 760166521}
@@ -956,7 +935,6 @@ SpriteShapeRenderer:
     m_Center: {x: 0, y: -0.00000023841858, z: 0}
     m_Extent: {x: 2.0000002, y: 2, z: 0}
 --- !u!1 &914453085
-<<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1334,81 +1312,14 @@ EdgeCollider2D:
   - {x: -1.9882563, y: -1.9689504}
   - {x: -2, y: -1.9999998}
 --- !u!1 &1063459963
-=======
->>>>>>> parent of 5e4162f... 5
 GameObject:
+>>>>>>> parent of 86a2972... Revert "7"
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
-  m_GameObject: {fileID: 754270183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90539df1cd5704abcb25fec9f3f5f84b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Spline:
-    m_IsOpenEnded: 0
-    m_ControlPoints:
-    - position: {x: -2, y: -2, z: 0}
-      leftTangent: {x: 0, y: 0, z: 0}
-      rightTangent: {x: 0, y: 0, z: 0}
-      mode: 0
-      height: 1
-      bevelCutoff: 0
-      bevelSize: 0
-      spriteIndex: 0
-      corner: 1
-    - position: {x: -2, y: 2, z: 0}
-      leftTangent: {x: 0, y: 0, z: 0}
-      rightTangent: {x: 0, y: 0, z: 0}
-      mode: 0
-      height: 1
-      bevelCutoff: 0
-      bevelSize: 0
-      spriteIndex: 0
-      corner: 1
-    - position: {x: 2, y: 2, z: 0}
-      leftTangent: {x: 0, y: 0, z: 0}
-      rightTangent: {x: 0, y: 0, z: 0}
-      mode: 0
-      height: 1
-      bevelCutoff: 0
-      bevelSize: 0
-      spriteIndex: 0
-      corner: 1
-    - position: {x: 2, y: -2, z: 0}
-      leftTangent: {x: 0, y: 0, z: 0}
-      rightTangent: {x: 0, y: 0, z: 0}
-      mode: 0
-      height: 1
-      bevelCutoff: 0
-      bevelSize: 0
-      spriteIndex: 0
-      corner: 1
-  m_SpriteShape: {fileID: 0}
-  m_FillPixelPerUnit: 100
-  m_StretchTiling: 1
-  m_SplineDetail: 16
-  m_AdaptiveUV: 1
-  m_StretchUV: 0
-  m_WorldSpaceUV: 0
-  m_CornerAngleThreshold: 30
-  m_ColliderDetail: 16
-  m_ColliderOffset: 0
-  m_UpdateCollider: 1
-  m_OptimizeCollider: 1
-  m_OptimizeGeometry: 1
-  m_EnableTangents: 0
-  m_GeometryCached: 0
---- !u!1971053207 &754270186
-SpriteShapeRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754270183}
   m_Enabled: 1
   m_CastShadows: 1
@@ -2078,6 +1989,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 86a2972... Revert "7"
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1063459964}
@@ -2114,6 +2027,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+<<<<<<< HEAD
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063459963}
   m_Enabled: 1
@@ -2668,14 +2582,198 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154264078}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.9750006, y: -1.3768506, z: 228.33887}
+  m_LocalScale: {x: 0.29660955, y: 0.3628109, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1946821274}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1154264080
+=======
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1127625901
+>>>>>>> parent of 309ee91... fix
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127625899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1127625902
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127625899}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1127625903
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127625899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 914453086}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1152523947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1152523948}
+  - component: {fileID: 1152523950}
+  - component: {fileID: 1152523949}
+  m_Layer: 5
+  m_Name: fill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1152523948
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152523947}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 117.828125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 914453086}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 86.509, y: -7.1844}
+  m_SizeDelta: {x: 173.01718, y: 14.368843}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1152523949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152523947}
+=======
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063459963}
+>>>>>>> parent of 86a2972... Revert "7"
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
 <<<<<<< HEAD
+=======
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1063459966
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063459963}
+  m_CullTransparentMesh: 0
+--- !u!1 &1127625899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1127625903}
+  - component: {fileID: 1127625902}
+  - component: {fileID: 1127625901}
+  - component: {fileID: 1127625900}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1127625900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
   m_GameObject: {fileID: 1127625899}
   m_Enabled: 1
   m_EditorHideFlags: 0
 =======
-=======
->>>>>>> parent of 594ac81... 5
   m_GameObject: {fileID: 1154264078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.9750006, y: -1.3768506, z: 228.33887}
@@ -2686,12 +2784,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1154264080
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of c1140ca... 5
-=======
-=======
->>>>>>> parent of 594ac81... 5
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2702,15 +2796,11 @@ Transform:
     m_Bits: 4294967295
 --- !u!114 &1127625901
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 309ee91... fix
 =======
 >>>>>>> parent of 8d84dc8... 4
 >>>>>>> parent of c1140ca... 5
-=======
->>>>>>> parent of 309ee91... fix
->>>>>>> parent of 594ac81... 5
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2877,6 +2967,7 @@ EdgeCollider2D:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 914453086}
+  - {fileID: 1584926384}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2981,6 +3072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+>>>>>>> parent of 86a2972... Revert "7"
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
@@ -3072,10 +3164,14 @@ SpriteShapeRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of d1eacc8... 5
 =======
 =======
 >>>>>>> parent of 8d84dc8... 4
 >>>>>>> parent of c1140ca... 5
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 594ac81... 5
   m_GameObject: {fileID: 1229252816}
@@ -5981,7 +6077,6 @@ RectTransform:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 6c01e5b... 5
-<<<<<<< HEAD
 =======
   m_GameObject: {fileID: 1373709893}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
@@ -6051,12 +6146,12 @@ CanvasRenderer:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of c1140ca... 5
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 594ac81... 5
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 86a2972... Revert "7"
-<<<<<<< HEAD
 =======
 >>>>>>> parent of d1eacc8... 5
 =======
@@ -6065,18 +6160,16 @@ CanvasRenderer:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 86a2972... Revert "7"
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 5e4162f... 5
 <<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 11c6f63... sdf
 =======
 >>>>>>> parent of d41cccf... a
-=======
->>>>>>> parent of b49ecdf... a
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
