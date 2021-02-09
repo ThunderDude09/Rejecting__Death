@@ -16,10 +16,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     x: 0
     y: 43
     width: 1920
     height: 997
+<<<<<<< HEAD
 =======
     x: 616
     y: 51
@@ -32,6 +36,8 @@ MonoBehaviour:
     width: 958
     height: 988
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -59,12 +65,16 @@ MonoBehaviour:
     y: 30
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     width: 1920
     height: 947
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 66
+<<<<<<< HEAD
 =======
     width: 960
     height: 931
@@ -81,6 +91,8 @@ MonoBehaviour:
   vertical: 0
   controlID: 113
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -100,10 +112,14 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     width: 553
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< HEAD
 =======
     width: 277
     height: 931
@@ -116,6 +132,8 @@ MonoBehaviour:
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -140,6 +158,9 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     width: 409
     height: 428
 =======
@@ -148,12 +169,6 @@ MonoBehaviour:
 >>>>>>> parent of 309ee91... fix
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-=======
-    width: 204
-    height: 421
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
->>>>>>> parent of 86a2972... Revert "7"
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -177,6 +192,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 428
     width: 1367
     height: 519
@@ -190,6 +206,11 @@ MonoBehaviour:
     width: 683
     height: 514
 >>>>>>> parent of 309ee91... fix
+=======
+    y: 428
+    width: 1367
+    height: 519
+>>>>>>> parent of 8d84dc8... 4
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -220,6 +241,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 997
 =======
@@ -230,6 +252,10 @@ MonoBehaviour:
     width: 958
     height: 988
 >>>>>>> parent of 309ee91... fix
+=======
+    width: 1920
+    height: 997
+>>>>>>> parent of 8d84dc8... 4
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -251,6 +277,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
 =======
     width: 960
@@ -258,6 +285,9 @@ MonoBehaviour:
 =======
     width: 958
 >>>>>>> parent of 309ee91... fix
+=======
+    width: 1920
+>>>>>>> parent of 8d84dc8... 4
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -280,6 +310,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 977
     width: 1920
 =======
@@ -290,6 +321,10 @@ MonoBehaviour:
     y: 968
     width: 958
 >>>>>>> parent of 309ee91... fix
+=======
+    y: 977
+    width: 1920
+>>>>>>> parent of 8d84dc8... 4
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -314,12 +349,16 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     width: 1367
     height: 947
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 67
+<<<<<<< HEAD
 =======
     width: 683
     height: 931
@@ -336,6 +375,8 @@ MonoBehaviour:
   vertical: 1
   controlID: 69
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -357,12 +398,16 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     width: 1367
     height: 428
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 68
+<<<<<<< HEAD
 =======
     width: 683
     height: 421
@@ -379,6 +424,8 @@ MonoBehaviour:
   vertical: 0
   controlID: 44
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,6 +445,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 958
     height: 428
 =======
@@ -408,6 +456,10 @@ MonoBehaviour:
     width: 479
     height: 424
 >>>>>>> parent of 309ee91... fix
+=======
+    width: 958
+    height: 428
+>>>>>>> parent of 8d84dc8... 4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -466,10 +518,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     x: 0
     y: 501
     width: 1366
     height: 498
+<<<<<<< HEAD
 =======
     x: 616
     y: 502
@@ -482,6 +538,8 @@ MonoBehaviour:
     width: 682
     height: 493
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -510,6 +568,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 8a390000
     m_LastClickedID: 14730
     m_ExpandedIDs: 000000007c3900007e39000000ca9a3b
@@ -523,6 +582,11 @@ MonoBehaviour:
     m_LastClickedID: 14648
     m_ExpandedIDs: 00000000323900003a39000000ca9a3b
 >>>>>>> parent of 309ee91... fix
+=======
+    m_SelectedIDs: 8a390000
+    m_LastClickedID: 14730
+    m_ExpandedIDs: 000000007c3900007e39000000ca9a3b
+>>>>>>> parent of 8d84dc8... 4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,6 +616,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000007c3900007e390000
 =======
     m_ExpandedIDs: 00000000803900008239000084390000
@@ -559,6 +624,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000032390000
 >>>>>>> parent of 309ee91... fix
+=======
+    m_ExpandedIDs: 000000007c3900007e390000
+>>>>>>> parent of 8d84dc8... 4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -602,7 +670,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -637,10 +705,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     x: 1367
     y: 73
     width: 552
     height: 926
+<<<<<<< HEAD
 =======
     x: 1299
     y: 81
@@ -653,6 +725,8 @@ MonoBehaviour:
     width: 274
     height: 917
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -689,10 +763,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     x: 0
     y: 73
     width: 408
     height: 407
+<<<<<<< HEAD
 =======
     x: 616
     y: 81
@@ -705,10 +783,13 @@ MonoBehaviour:
     width: 203
     height: 403
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: 
@@ -724,6 +805,11 @@ MonoBehaviour:
       m_LastClickedID: 18620
       m_ExpandedIDs: 80d4ffff9ad4ffffa8d4ffffb6d4ffffc6d4ffff52d5ffffecd6ffffb0d7ffffdee0ffffe8e0ffffb6e1ffff36e2ffff44e3ffff86e3ffff78e4ffff98f4ffffb6f4ffffdef4ffff4cfbffff08390000c23f0000bc41000086430000f6430000bc480000
 >>>>>>> parent of 309ee91... fix
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 5efbffff
+>>>>>>> parent of 8d84dc8... 4
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -770,10 +856,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     x: 409
     y: 73
     width: 956
     height: 407
+<<<<<<< HEAD
 =======
     x: 820
     y: 81
@@ -786,6 +876,8 @@ MonoBehaviour:
     width: 477
     height: 403
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 92a09f97495ef2243ad6070adc58baac
@@ -797,6 +889,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 5.232442, y: 2.3724375, z: -3.7285156}
@@ -812,6 +905,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 238, y: 134, z: 0}
 >>>>>>> parent of 309ee91... fix
+=======
+    m_Target: {x: 5.232442, y: 2.3724375, z: -3.7285156}
+    speed: 2
+    m_Value: {x: 5.232442, y: 2.3724375, z: -3.7285156}
+>>>>>>> parent of 8d84dc8... 4
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -863,6 +961,7 @@ MonoBehaviour:
   m_Size:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 4.572771
     speed: 2
     m_Value: 4.572771
@@ -876,6 +975,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 273.13
 >>>>>>> parent of 309ee91... fix
+=======
+    m_Target: 4.572771
+    speed: 2
+    m_Value: 4.572771
+>>>>>>> parent of 8d84dc8... 4
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -923,10 +1027,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
     x: 409
     y: 73
     width: 956
     height: 407
+<<<<<<< HEAD
 =======
     x: 820
     y: 81
@@ -939,6 +1047,8 @@ MonoBehaviour:
     width: 477
     height: 403
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -986,10 +1096,14 @@ MonoBehaviour:
       y: 21
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
       width: 956
       height: 386
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 478, y: 193}
+<<<<<<< HEAD
 =======
       width: 477
       height: 379
@@ -1002,6 +1116,8 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 238.5, y: 191}
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1010,6 +1126,9 @@ MonoBehaviour:
       serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8d84dc8... 4
       x: -478
       y: -193
       width: 956
@@ -1017,6 +1136,7 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 956, y: 407}
+<<<<<<< HEAD
 =======
       x: -59.224575
       y: -78.37265
@@ -1035,6 +1155,8 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 477, y: 403}
 >>>>>>> parent of 309ee91... fix
+=======
+>>>>>>> parent of 8d84dc8... 4
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1061,8 +1183,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 501
-    width: 1366
-    height: 498
+    x: 1
+    y: 505
+    width: 681
+    height: 493
   m_ViewDataDictionary: {fileID: 0}
