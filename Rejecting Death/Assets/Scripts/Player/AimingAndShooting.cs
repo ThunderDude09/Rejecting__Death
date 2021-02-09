@@ -5,6 +5,7 @@ using UnityEngine;
 public class AimingAndShooting : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 { 
 
     // Start is called before the first frame update
@@ -23,6 +24,8 @@ public class AimingAndShooting : MonoBehaviour
 =======
 =======
 >>>>>>> parent of 86a2972... Revert "7"
+=======
+>>>>>>> parent of 86a2972... Revert "7"
 {
     public GameObject crosshair;
     private Vector3 target;
@@ -38,6 +41,9 @@ public class AimingAndShooting : MonoBehaviour
         crosshair.transform.position = new Vector2(target.x, target.y);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 86a2972... Revert "7"
+=======
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 86a2972... Revert "7"
