@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -11,9 +10,6 @@ public class Health : MonoBehaviour
 
     [SerializeField]
     float currentHealth = 60;
-
-    [SerializeField]
-    int goToLevel = 0;
 
     [SerializeField]
     Image bar;
@@ -39,17 +35,11 @@ public class Health : MonoBehaviour
         {
             playerHp -= 1;
             Debug.Log(playerHp);
-            UpdateHUD();
-        }
-
-        if (playerHp == 0)
-        {
-            SceneManager.LoadScene(goToLevel);
         }
     }
 
     void UpdateHUD()
     {
-        bar.fillAmount = (float)playerHp / currentHealth;
+        bar.fillAmount = (float)playerHp / 60;
     }
 }
