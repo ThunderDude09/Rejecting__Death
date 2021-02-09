@@ -37,7 +37,6 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of d41cccf... a
 =======
@@ -173,12 +172,6 @@ MonoBehaviour:
     width: 960
     height: 981
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    x: 616
-    y: 51
-    width: 960
-    height: 981
->>>>>>> parent of 86a2972... Revert "7"
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -204,7 +197,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,13 +311,10 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 86a2972... Revert "7"
-=======
->>>>>>> parent of 86a2972... Revert "7"
     width: 960
     height: 931
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,10 +398,6 @@ MonoBehaviour:
   vertical: 0
   controlID: 63
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-  vertical: 0
-  controlID: 63
->>>>>>> parent of 86a2972... Revert "7"
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -430,7 +415,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 683
     y: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,10 +515,6 @@ MonoBehaviour:
     width: 277
     height: 931
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    width: 277
-    height: 931
->>>>>>> parent of 86a2972... Revert "7"
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> parent of 309ee91... fix
@@ -586,7 +566,6 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
     height: 424
@@ -631,11 +610,6 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    height: 421
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
->>>>>>> parent of 86a2972... Revert "7"
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -657,7 +631,6 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -803,11 +776,6 @@ MonoBehaviour:
     width: 683
     height: 510
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    y: 421
-    width: 683
-    height: 510
->>>>>>> parent of 86a2972... Revert "7"
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -836,7 +804,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,10 +937,6 @@ MonoBehaviour:
     width: 960
     height: 981
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    width: 960
-    height: 981
->>>>>>> parent of 86a2972... Revert "7"
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -993,7 +956,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1115,9 +1077,6 @@ MonoBehaviour:
 =======
     width: 960
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    width: 960
->>>>>>> parent of 86a2972... Revert "7"
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -1138,7 +1097,6 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1272,10 +1230,6 @@ MonoBehaviour:
     y: 961
     width: 960
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    y: 961
-    width: 960
->>>>>>> parent of 86a2972... Revert "7"
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -1298,7 +1252,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1413,14 +1366,6 @@ MonoBehaviour:
   vertical: 1
   controlID: 64
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    width: 683
-    height: 931
-  m_MinSize: {x: 402, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 64
->>>>>>> parent of 86a2972... Revert "7"
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1440,7 +1385,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1555,14 +1499,6 @@ MonoBehaviour:
   vertical: 0
   controlID: 65
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    width: 683
-    height: 421
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
-  vertical: 0
-  controlID: 65
->>>>>>> parent of 86a2972... Revert "7"
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1596,7 +1532,6 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
     width: 479
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1666,9 +1601,6 @@ MonoBehaviour:
 =======
     height: 421
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    height: 421
->>>>>>> parent of 86a2972... Revert "7"
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -1725,7 +1657,6 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1884,12 +1815,6 @@ MonoBehaviour:
     width: 682
     height: 489
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    x: 616
-    y: 502
-    width: 682
-    height: 489
->>>>>>> parent of 86a2972... Revert "7"
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -1916,7 +1841,6 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2062,11 +1986,6 @@ MonoBehaviour:
     m_LastClickedID: 14740
     m_ExpandedIDs: 0000000080390000823900008439000000ca9a3b
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    m_SelectedIDs: 94390000
-    m_LastClickedID: 14740
-    m_ExpandedIDs: 0000000080390000823900008439000000ca9a3b
->>>>>>> parent of 86a2972... Revert "7"
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2094,7 +2013,6 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2216,9 +2134,6 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000803900008239000084390000
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    m_ExpandedIDs: 00000000803900008239000084390000
->>>>>>> parent of 86a2972... Revert "7"
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2295,7 +2210,6 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2454,12 +2368,6 @@ MonoBehaviour:
     width: 276
     height: 910
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    x: 1299
-    y: 81
-    width: 276
-    height: 910
->>>>>>> parent of 86a2972... Revert "7"
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -2494,7 +2402,6 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2653,17 +2560,10 @@ MonoBehaviour:
     width: 203
     height: 400
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    x: 616
-    y: 81
-    width: 203
-    height: 400
->>>>>>> parent of 86a2972... Revert "7"
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2809,11 +2709,6 @@ MonoBehaviour:
       m_LastClickedID: 14652
       m_ExpandedIDs: 5efbffff06390000
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-      m_SelectedIDs: 3c390000
-      m_LastClickedID: 14652
-      m_ExpandedIDs: 5efbffff06390000
->>>>>>> parent of 86a2972... Revert "7"
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2858,7 +2753,6 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3017,12 +2911,6 @@ MonoBehaviour:
     width: 477
     height: 400
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    x: 820
-    y: 81
-    width: 477
-    height: 400
->>>>>>> parent of 86a2972... Revert "7"
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 92a09f97495ef2243ad6070adc58baac
@@ -3034,7 +2922,6 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3180,11 +3067,6 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 3.1277907, y: 0.8658519, z: -0.9238281}
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    m_Target: {x: 3.1277907, y: 0.8658519, z: -0.9238281}
-    speed: 2
-    m_Value: {x: 3.1277907, y: 0.8658519, z: -0.9238281}
->>>>>>> parent of 86a2972... Revert "7"
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3234,7 +3116,6 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3380,11 +3261,6 @@ MonoBehaviour:
     speed: 2
     m_Value: 9.417212
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    m_Target: 9.417212
-    speed: 2
-    m_Value: 9.417212
->>>>>>> parent of 86a2972... Revert "7"
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -3430,7 +3306,6 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3589,12 +3464,6 @@ MonoBehaviour:
     width: 477
     height: 400
 >>>>>>> parent of 86a2972... Revert "7"
-=======
-    x: 820
-    y: 81
-    width: 477
-    height: 400
->>>>>>> parent of 86a2972... Revert "7"
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -3665,7 +3534,6 @@ MonoBehaviour:
       height: 379
     m_Scale: {x: 3.4341946, y: 3.4341943}
     m_Translation: {x: 203.38872, y: 269.1469}
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 86a2972... Revert "7"
@@ -3746,15 +3614,12 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 86a2972... Revert "7"
-=======
->>>>>>> parent of 86a2972... Revert "7"
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3870,13 +3735,10 @@ MonoBehaviour:
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 86a2972... Revert "7"
-=======
->>>>>>> parent of 86a2972... Revert "7"
       x: -59.224575
       y: -78.37265
       width: 138.8972
       height: 110.36067
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3954,11 +3816,6 @@ MonoBehaviour:
 >>>>>>> parent of b49ecdf... a
 =======
 >>>>>>> parent of e079153... a
-=======
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 477, y: 400}
->>>>>>> parent of 86a2972... Revert "7"
 =======
     m_MinimalGUI: 1
   m_defaultScale: 1
