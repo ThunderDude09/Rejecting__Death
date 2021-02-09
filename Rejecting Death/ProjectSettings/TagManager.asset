@@ -7,7 +7,6 @@ TagManager:
   - IceSpike
   - Spike
   - ground
-  - IceFloor
   layers:
   - Default
   - TransparentFX
