@@ -11,7 +11,6 @@ public class AimingAndShooting : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of a475ba1... 5
 { 
@@ -45,8 +44,6 @@ public class AimingAndShooting : MonoBehaviour
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 86a2972... Revert "7"
-=======
->>>>>>> parent of 86a2972... Revert "7"
 {
     public GameObject crosshair;
     private Vector3 target;
@@ -68,15 +65,12 @@ public class AimingAndShooting : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 =======
 >>>>>>> parent of a475ba1... 5
->>>>>>> parent of 86a2972... Revert "7"
-=======
 >>>>>>> parent of 86a2972... Revert "7"
 =======
 >>>>>>> parent of 86a2972... Revert "7"
