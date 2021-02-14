@@ -160,8 +160,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7a5729337e27246a39ca1efe3509bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1763995182}
-  cameraDistance: 35
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1167,8 +1165,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
+  moveSpeed2: 1
   jumpSpeed: 5
   isGrounded: 0
+  isIce: 0
 --- !u!114 &1763995184
 MonoBehaviour:
   m_ObjectHideFlags: 0

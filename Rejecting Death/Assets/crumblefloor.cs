@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class crumblefloor : MonoBehaviour
+public class crumble_floor : MonoBehaviour
 {
 
     private Rigidbody2D rb2d;

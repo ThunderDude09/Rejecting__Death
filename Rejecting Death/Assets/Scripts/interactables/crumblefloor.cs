@@ -2,25 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class crumblefloor : MonoBehaviour
+public class Crumblefloor : MonoBehaviour
 {
 
-    private Rigidbody2D rb2d;
-    public float fallDelay;
+    private Rigidbody2D RB;
+    public float FallDelay;
     public float respawnDelay;
-    private Vector2 startPos;
+    private Vector2 startPo;
     // Start is called before the first frame update
+
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
-        startPos = new Vector2(transform.position.x, transform.position.y);
+        RB = GetComponent<Rigidbody2D>();
+        startPo = new Vector2(transform.position.x, transform.position.y);
         GetComponent<EdgeCollider2D>().isTrigger = false;
-    }
-
-    // Update is called once per frame
-     void Update()
-    {
-        
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -28,7 +23,7 @@ public class crumblefloor : MonoBehaviour
 
         if (col.collider.CompareTag("Player"))
         {
-            StartCoroutine(Fall());
+            StartCoroutine(Falling());
             
         }    
     }
@@ -39,26 +34,26 @@ public class crumblefloor : MonoBehaviour
             
         }
     }
-    IEnumerator Fall()
+    IEnumerator Falling()
     {
-        yield return new WaitForSeconds(fallDelay);
-        rb2d.isKinematic = false;
+        yield return new WaitForSeconds(FallDelay);
+        RB.isKinematic = false;
         GetComponent<EdgeCollider2D>().isTrigger = true;
        //yield return new WaitForSeconds(respawnDelay);
-        //StartCoroutine(Respawn());
+        //StartCoroutine(respawn());
         yield return 0;
 
 
 
     }
-    IEnumerator Respawn()
+    IEnumerator respawn()
     {
         
         
-        rb2d.isKinematic = true;
+        RB.isKinematic = true;
         
         GetComponent<EdgeCollider2D>().isTrigger = false;
-        transform.position = startPos;
+        transform.position = startPo;
         
         
         yield return 0;
