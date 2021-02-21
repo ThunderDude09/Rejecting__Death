@@ -6,42 +6,42 @@ public class movingplatforms : MonoBehaviour
 {
     public Vector3 startSpot;
     public Vector3 endSpot;
+    public Vector3 nextSpot;
+    //private bool moving;
 
-    private bool moving;
-
-    public Vector3 moveSpeed;
+    private float moveSpeed = 1;
     // Start is called before the first frame update
     void Start()
     {
-        startSpot = transform.position;        
-        endSpot = new Vector3(endSpot.x, endSpot.y,0);        
+        nextSpot = startSpot;
+        endSpot = new Vector3(endSpot.x, endSpot.y, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (moving)
+        if (transform.position == endSpot)
         {
-            transform.position += (moveSpeed * Time.deltaTime);
+            nextSpot = startSpot;
+
         }
+        if (transform.position == startSpot)
+        {
+            nextSpot = endSpot;
+        }
+
+        transform.position = Vector3.MoveTowards(transform.position, nextSpot, moveSpeed * Time.deltaTime);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Player"))
-        {
-            moving = true;
-            collision.collider.transform.SetParent(transform);
-        }
+        collision.collider.transform.SetParent(transform);
     }
+
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Player"))
-        {
             collision.collider.transform.SetParent(null);
-            moving = false;
-        }
+        
     }
-
-
 }
+
