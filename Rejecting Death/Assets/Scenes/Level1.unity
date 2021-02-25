@@ -1578,6 +1578,7 @@ GameObject:
   - component: {fileID: 1207658859}
   - component: {fileID: 1207658858}
   - component: {fileID: 1207658861}
+  - component: {fileID: 1207658862}
   m_Layer: 0
   m_Name: New SpriteShapeController (2)
   m_TagString: Untagged
@@ -1722,7 +1723,7 @@ EdgeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1735,6 +1736,24 @@ EdgeCollider2D:
   - {x: -1.8056297, y: -2}
   - {x: -1.9490371, y: -2}
   - {x: -2, y: -2}
+--- !u!114 &1207658862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207658857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6d2704e3450e24f9e660476aac3d3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 2
+  playerRange: 10
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  playerInRange: 0
 --- !u!1 &1317475778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,7 +2190,7 @@ GameObject:
   - component: {fileID: 1763995178}
   - component: {fileID: 1763995183}
   - component: {fileID: 1763995184}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
