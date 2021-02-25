@@ -34,9 +34,9 @@ public class key : MonoBehaviour
             {
                 Movement thePlayer = FindObjectOfType<Movement>();
 
-                /*folowTarget = thePlayer.keyFollowPoint;
+                folowTarget = thePlayer.keyFollowPoint;
                 thePlayer.followingkey = this;
-                isFollowing = true;*/
+                isFollowing = true;
             }
         }
     }

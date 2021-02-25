@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    /*private Movement thePlayer;
+    private Movement thePlayer;
 
     public SpriteRenderer theSR;
     public Sprite doorOpenSprite;
@@ -47,5 +47,5 @@ public class Door : MonoBehaviour
                 waitingtoOpen = true;
             }
         }
-    }*/
+    }
 }

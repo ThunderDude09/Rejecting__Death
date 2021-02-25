@@ -40,7 +40,7 @@ public class Crumblefloor : MonoBehaviour
         RB.isKinematic = false;
         GetComponent<EdgeCollider2D>().isTrigger = true;
        //yield return new WaitForSeconds(respawnDelay);
-        //StartCoroutine(respawn());
+       // StartCoroutine(respawn());
         yield return 0;
 
 
@@ -51,9 +51,9 @@ public class Crumblefloor : MonoBehaviour
         
         
         RB.isKinematic = true;
-        
-        GetComponent<EdgeCollider2D>().isTrigger = false;
         transform.position = startPo;
+        GetComponent<EdgeCollider2D>().isTrigger = false;
+        
         
         
         yield return 0;
