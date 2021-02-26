@@ -49,10 +49,10 @@ public class Crumblefloor : MonoBehaviour
     IEnumerator respawn()
     {
         
-        
+        GetComponent<EdgeCollider2D>().isTrigger = false;
         RB.isKinematic = true;
         transform.position = startPo;
-        GetComponent<EdgeCollider2D>().isTrigger = false;
+        
         
         
         

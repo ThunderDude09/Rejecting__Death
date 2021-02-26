@@ -19,7 +19,7 @@ TagManager:
   - 
   - Front
   - background
-  - 
+  - Boss
   - 
   - 
   - 
@@ -50,4 +50,10 @@ TagManager:
     locked: 0
   - name: Front
     uniqueID: 1799101123
+    locked: 0
+  - name: Boss
+    uniqueID: 3008174171
+    locked: 0
+  - name: background
+    uniqueID: 3390698331
     locked: 0
