@@ -15,6 +15,11 @@ public class Health : MonoBehaviour
     [SerializeField]
     int goToLevel = 0;
 
+    float damageTimer;
+
+    [SerializeField]
+    float GhostEnemyDam = .5f;
+
     [SerializeField]
     Image bar;
 
@@ -30,7 +35,10 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(damageTimer > 0)
+        {
+            damageTimer -= Time.deltaTime;
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -42,11 +50,29 @@ public class Health : MonoBehaviour
             UpdateHUD();
         }
 
+        
+
         if (playerHp == 0)
         {
             SceneManager.LoadScene(goToLevel);
         }
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ghost"))
+        {
+            playerHp -= GhostEnemyDam;
+            Debug.Log(playerHp);
+            UpdateHUD();
+        }
+
+        if (playerHp == 0)
+        {
+            SceneManager.LoadScene(goToLevel);
+        }
+    }
+
 
     void UpdateHUD()
     {

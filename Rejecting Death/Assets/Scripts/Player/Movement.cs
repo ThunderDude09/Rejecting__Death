@@ -8,9 +8,6 @@ public class Movement : MonoBehaviour
     [SerializeField]
     public float moveSpeed = 1;
 
-    [SerializeField]
-    public float moveSpeed2 = 1;
-
     float horizontalMovement = 0f;
 
     [SerializeField]
@@ -19,6 +16,8 @@ public class Movement : MonoBehaviour
     public bool isGrounded;
 
     public bool isIce;
+
+    public Vector2 movement;
 
     private Rigidbody2D playerRigidbody;
 
@@ -30,9 +29,29 @@ public class Movement : MonoBehaviour
 
     // Update is called once per frame
 
+    void Update()
+    {
+        movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+
+        //Move();
+
+
+        if (Input.GetButtonDown("Jump") && Mathf.Abs(playerRigidbody.velocity.y) < 20f)
+        {
+            if (isGrounded)
+            {
+                playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+            }
+
+        }
+    }
+
     private void FixedUpdate()
     {
-        if (isIce == true)
+        Move();
+
+
+        /*if (isIce == true)
         {
             float moveHorizontal = Input.GetAxis("Horizontal");
 
@@ -44,27 +63,10 @@ public class Movement : MonoBehaviour
 
             //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
             playerRigidbody.AddForce(movement * moveSpeed2);
-        }
+        }*/
     }
 
-    private void Update()
-    {
-        if (isIce == false)
-        {
-            var movement = Input.GetAxis("Horizontal");
-            transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * moveSpeed;
-        }
-        
-
-        if (Input.GetButtonDown("Jump") && Mathf.Abs(playerRigidbody.velocity.y) < 20f)
-        {
-            if (isGrounded)
-            {
-                playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
-            }
-            
-        }
-    }
+    
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -93,4 +95,13 @@ public class Movement : MonoBehaviour
         }
     }
 
+
+    void Move()
+    {
+        //playerRigidbody.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
+
+        float x = Input.GetAxisRaw("Horizontal");
+        float moveBy = x * moveSpeed;
+        playerRigidbody.velocity = new Vector2(moveBy, playerRigidbody.velocity.y);
+    }
 }

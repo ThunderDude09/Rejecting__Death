@@ -8,6 +8,7 @@ TagManager:
   - Spike
   - ground
   - IceFloor
+  - Ghost
   layers:
   - Default
   - TransparentFX
