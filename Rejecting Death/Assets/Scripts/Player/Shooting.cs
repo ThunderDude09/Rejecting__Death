@@ -7,6 +7,8 @@ public class Shooting : MonoBehaviour
     public Transform firePoint;
     public GameObject projectilePrefab;
 
+    public bool HasFire = false;
+
     public float projectileForce = 20f;
 
     // Start is called before the first frame update
@@ -18,7 +20,8 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+
+        if(Input.GetButtonDown("Fire1") && HasFire)
         {
             Shoot();
         }

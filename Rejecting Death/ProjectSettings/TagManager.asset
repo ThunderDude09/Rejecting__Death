@@ -9,6 +9,7 @@ TagManager:
   - ground
   - IceFloor
   - Ghost
+  - Gem
   layers:
   - Default
   - TransparentFX

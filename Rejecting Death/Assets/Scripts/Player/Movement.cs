@@ -5,6 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Movement : MonoBehaviour
 {
+    public GameObject firePoint;
+    private Shooting shooting_Script;
+
     [SerializeField]
     public float moveSpeed = 1;
 
@@ -25,6 +28,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
+        shooting_Script = firePoint.GetComponent<Shooting>();
     }
 
     // Update is called once per frame
@@ -79,6 +83,12 @@ public class Movement : MonoBehaviour
         {
             isGrounded = true;
             isIce = true;
+        }
+
+        if (collision.gameObject.CompareTag("Gem"))
+        {
+            shooting_Script.HasFire = true;
+            Destroy(collision.gameObject);
         }
     }
 
