@@ -1,11 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Shooting : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject projectilePrefab;
+
+    public float cooldownTime;
+
+    bool canFire = true;
 
     public bool HasFire = false;
 
@@ -18,13 +23,16 @@ public class Shooting : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-
-        if(Input.GetButtonDown("Fire1") && HasFire)
+        if (Input.GetButtonDown("Fire1") && HasFire && canFire == true)
         {
+            canFire = false;
             Shoot();
+            StartCoroutine(Cooldown());
         }
+
+
     }
 
     void Shoot()
@@ -34,4 +42,10 @@ public class Shooting : MonoBehaviour
         rb.AddForce(firePoint.right * projectileForce, ForceMode2D.Impulse);
     
     }
+
+    private IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(.5f);
+        canFire = true;
+    }    
 }
