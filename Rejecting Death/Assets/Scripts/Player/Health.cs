@@ -46,10 +46,17 @@ public class Health : MonoBehaviour
         {
             SceneManager.LoadScene(goToLevel);
         }
+
     }
 
     void UpdateHUD()
     {
         bar.fillAmount = (float)playerHp / currentHealth;
+    }
+
+
+    public void takeDamage(float damage)
+    {
+        currentHealth -= damage;
     }
 }

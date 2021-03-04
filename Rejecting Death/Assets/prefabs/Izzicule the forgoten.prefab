@@ -14,11 +14,9 @@ GameObject:
   - component: {fileID: 511782599077208910}
   - component: {fileID: 511782599077208883}
   - component: {fileID: 511782599077208882}
-  - component: {fileID: 511782599077208881}
-  - component: {fileID: 511782599077208880}
   - component: {fileID: -6507021441867949173}
   - component: {fileID: 7190169288549256560}
-  - component: {fileID: 6412691468623966340}
+  - component: {fileID: 743397137928320249}
   m_Layer: 10
   m_Name: Izzicule the forgoten
   m_TagString: Untagged
@@ -36,7 +34,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 50.59, y: -5.62, z: -1.9296875}
   m_LocalScale: {x: 5, y: 5, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 879191639421948597}
+  - {fileID: 7220703290150989172}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -173,38 +173,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.21, y: 0.41}
   m_EdgeRadius: 0
---- !u!58 &511782599077208881
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511782599077208905}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.68, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.56
---- !u!58 &511782599077208880
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511782599077208905}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.81, y: -0.02}
-  serializedVersion: 2
-  m_Radius: 0.56
 --- !u!114 &-6507021441867949173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,21 +197,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573345b1c9307454c81804b4099a4dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!68 &6412691468623966340
-EdgeCollider2D:
+  player: {fileID: 0}
+  isFlipped: 0
+--- !u!114 &743397137928320249
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511782599077208905}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.69}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.4765625, y: 0}
-  - {x: 0.4765625, y: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7251a3201b0600c4dbec94f929fd5070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attackpoint: {fileID: 7220703290150989172}
+  atkRange: 0.95
+  playerlayer:
+    serializedVersion: 2
+    m_Bits: 2048
+--- !u!1 &1296148376215865273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7220703290150989172}
+  m_Layer: 0
+  m_Name: MeleeAttakc blok
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7220703290150989172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296148376215865273}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.67, y: 0.06, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 511782599077208909}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6611025903431403040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879191639421948597}
+  m_Layer: 10
+  m_Name: Range Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &879191639421948597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6611025903431403040}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.82, y: -0.2, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 511782599077208909}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
