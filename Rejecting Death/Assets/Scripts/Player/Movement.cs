@@ -109,8 +109,5 @@ public class Movement : MonoBehaviour
         playerRigidbody.velocity = new Vector2(moveBy, playerRigidbody.velocity.y);
     }
 
-    void AddItem(int itemID, string itemType, string itemDescription, Texture2D itemIcon)
-    {
-
-    }
+    
 }

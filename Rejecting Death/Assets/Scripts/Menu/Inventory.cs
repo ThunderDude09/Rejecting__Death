@@ -7,6 +7,9 @@ public class Inventory : MonoBehaviour
     public GameObject firePoint;
     private Shooting shooting_Script;
 
+    public GameObject TheFireItem;
+    private Item item_Script;
+
     private bool inventoryEnabled = false;
     public GameObject inventory;
 
@@ -24,12 +27,36 @@ public class Inventory : MonoBehaviour
         for (int i = 0; i < allSlots; i++)
         {
             slot[i] = slotHolder.transform.GetChild(i).gameObject;
+
+            if (slot[i].GetComponent<Slot>().item == null)
+                slot[i].GetComponent<Slot>().empty = true;
         }
         shooting_Script = firePoint.GetComponent<Shooting>();
+
+        item_Script = TheFireItem.GetComponent<Item>();
     }
 
     void Update()
     {
+
+        if (item_Script.equipped)
+        {
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                //shooting_Script.HasFire = false;
+                //Debug.Log("Hello");
+            }
+            shooting_Script.HasFire = true;
+        }
+
+        /*for (int i = 0; i < allSlots; i++)
+        {
+            slot[i] = slotHolder.transform.GetChild(i).gameObject;
+
+            if (slot[i].GetComponent<Slot>().hasWeaponEquipped == true)
+                shooting_Script.HasFire = true;
+        }*/
+
         if (Input.GetKeyDown(KeyCode.E))
             inventoryEnabled = !inventoryEnabled;
         
@@ -45,12 +72,48 @@ public class Inventory : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        /*if(collision.tag == "Item")
+        {
+            GameObject ItemPickedUp = collision.gameObject;
+            Item item = ItemPickedUp.GetComponent<Item>();
+
+            AddItem(ItemPickedUp, item.ID, item.type, item.description, item.icon);
+        }*/
+
         if (collision.gameObject.CompareTag("Gem"))
         {
-            shooting_Script.HasFire = true;
-            Destroy(collision.gameObject);
+            //shooting_Script.HasFire = true;
+            //Destroy(collision.gameObject);
 
-            //AddItem(itemID, item.type, item.description, itemIcon);
+            GameObject ItemPickedUp = collision.gameObject;
+            Item item = ItemPickedUp.GetComponent<Item>();
+
+            AddItem(ItemPickedUp, item.ID, item.type, item.description, item.icon);
+        }
+    }
+
+    void AddItem(GameObject  itemObject, int itemID, string itemType, string itemDescription, Sprite itemIcon)
+    {
+        for (int i = 0; i < allSlots; i++)
+        {
+            if(slot[i].GetComponent<Slot>().empty)
+            {
+                itemObject.GetComponent<Item>().pickedUp = true;
+
+                slot[i].GetComponent<Slot>().item = itemObject;
+                slot[i].GetComponent<Slot>().icon = itemIcon;
+                slot[i].GetComponent<Slot>().type = itemType;
+                slot[i].GetComponent<Slot>().ID = itemID;
+                slot[i].GetComponent<Slot>().description = itemDescription;
+
+                itemObject.transform.parent = slot[i].transform;
+                itemObject.SetActive(false);
+
+                slot[i].GetComponent<Slot>().UpdateSlot();
+                slot[i].GetComponent<Slot>().empty = false;
+            }
+
+            return;
         }
     }
 
