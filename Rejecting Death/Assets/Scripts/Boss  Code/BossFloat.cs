@@ -7,6 +7,7 @@ public class BossFloat : StateMachineBehaviour
     public float speed = 1.5f;
     public float maxAttackRange = 6f;
     public float minAttackRange = 8f;
+    
     Transform player;
     Rigidbody2D rb;
     Boss boss;
@@ -16,8 +17,10 @@ public class BossFloat : StateMachineBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         boss = animator.GetComponent<Boss>();
+        
     }
-
+     
+    
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -26,12 +29,12 @@ public class BossFloat : StateMachineBehaviour
         Vector2 target = new Vector2(player.position.x, rb.position.y);
         Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
         rb.MovePosition(newPos);
-
-       if (Vector2.Distance(player.position, rb.position) <= minAttackRange)
+        
+       if (Vector2.Distance(player.position, rb.position) <= minAttackRange) 
         {
             animator.SetTrigger("Attack");
         }
-       else if( Vector2.Distance(player.position, rb.position) >= maxAttackRange)
+       else if( Vector2.Distance(player.position, rb.position) >= maxAttackRange )
         {
             animator.SetTrigger("Range");
         }
@@ -42,6 +45,7 @@ public class BossFloat : StateMachineBehaviour
     {
         animator.ResetTrigger("Attack");
         animator.ResetTrigger("Range");
+       
     }
 
     

@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25065b4ea6b8264580580121a377364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 0
+  waitTime: 1
 --- !u!251 &1537518349470457407
 PlatformEffector2D:
   m_ObjectHideFlags: 0
