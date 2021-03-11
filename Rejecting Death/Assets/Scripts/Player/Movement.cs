@@ -104,6 +104,6 @@ public class Movement : MonoBehaviour
     }
     void jump()
     {
-        playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+        playerRigidbody.AddForce(new Vector2(0, jumpSpeed*(horizontalMovement=1)), ForceMode2D.Impulse);
     }
 }
