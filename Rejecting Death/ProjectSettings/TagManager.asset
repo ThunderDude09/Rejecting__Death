@@ -8,6 +8,13 @@ TagManager:
   - Spike
   - ground
   - IceFloor
+  - Ghost
+  - Gem
+  - WeaponManager
+  - FireProjectile
+  - FireGem
+  - IceGem
+  - Sickle
   layers:
   - Default
   - TransparentFX
@@ -18,9 +25,15 @@ TagManager:
   - 
   - 
   - Front
+<<<<<<< HEAD
   - background
   - Boss
   - Player
+=======
+  - player
+  - 
+  - 
+>>>>>>> MayDelete
   - 
   - 
   - 
