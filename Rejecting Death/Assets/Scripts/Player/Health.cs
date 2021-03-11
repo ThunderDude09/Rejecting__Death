@@ -30,10 +30,14 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (playerHp <= 0)
+        {
+            GameObject.DestroyObject(gameObject);
+           // SceneManager.LoadScene(goToLevel);
+        }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("IceSpike"))
         {
@@ -42,10 +46,7 @@ public class Health : MonoBehaviour
             UpdateHUD();
         }
 
-        if (playerHp == 0)
-        {
-            SceneManager.LoadScene(goToLevel);
-        }
+        
 
     }
 

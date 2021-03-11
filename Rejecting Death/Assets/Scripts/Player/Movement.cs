@@ -25,6 +25,10 @@ public class Movement : MonoBehaviour
     public Transform keyFollowPoint;
 
     public key followingkey;
+
+    public Animator animator;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +56,9 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
+        animator.SetBool("Jump", !isGrounded);
+        animator.SetBool("Grounded", isGrounded);
+
         if (isIce == false)
         {
             var movement = Input.GetAxis("Horizontal");
@@ -63,7 +70,7 @@ public class Movement : MonoBehaviour
         {
             if (isGrounded)
             {
-                playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+                jump(); 
             }
             
         }
@@ -95,5 +102,8 @@ public class Movement : MonoBehaviour
             isIce = false;
         }
     }
-
+    void jump()
+    {
+        playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+    }
 }

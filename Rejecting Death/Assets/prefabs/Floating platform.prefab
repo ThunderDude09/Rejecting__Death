@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   airSpeed: 1.87
+  shelfLife: 20
 --- !u!61 &4297519632904666588
 BoxCollider2D:
   m_ObjectHideFlags: 0

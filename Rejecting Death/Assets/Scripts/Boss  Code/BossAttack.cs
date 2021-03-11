@@ -24,6 +24,7 @@ public class BossAttack : MonoBehaviour
         foreach (Collider2D player in hitPlayer)
         {
             Debug.Log("Hit" + player.name);
+            player.GetComponent<Health>().takeDamage(7);
         }
     
     }

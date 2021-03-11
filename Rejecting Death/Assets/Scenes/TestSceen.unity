@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &303975231 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 511782599077208909, guid: 0e2493c7fac161a498ad0345ae8f31ea,
-    type: 3}
-  m_PrefabInstance: {fileID: 511782598841165938}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &372150408 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4711380886888852363, guid: 28ac8f6f3665c734d983c6a425630694,
@@ -326,8 +320,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a49d5fc5ace954cb527ed08f608002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 303975231}
+  player: {fileID: 372150408}
+  offset: {x: 0, y: 0, z: 0}
   cameraDistance: 10
+  smoothFactor: 0
+  minValue: {x: 0, y: 0, z: 0}
+  maxValue: {x: 0, y: 0, z: 0}
 --- !u!4 &995845845 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7220703290150989172, guid: 0e2493c7fac161a498ad0345ae8f31ea,
@@ -21280,12 +21278,12 @@ PrefabInstance:
     - target: {fileID: 4711380886888852363, guid: 28ac8f6f3665c734d983c6a425630694,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.85
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4711380886888852363, guid: 28ac8f6f3665c734d983c6a425630694,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.09
+      value: 3.9
       objectReference: {fileID: 0}
     - target: {fileID: 4711380886888852363, guid: 28ac8f6f3665c734d983c6a425630694,
         type: 3}
