@@ -5,11 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Movement : MonoBehaviour
 {
-    [SerializeField]
-    public float moveSpeed = 1;
 
     [SerializeField]
-    public float moveSpeed2 = 1;
+    public float moveSpeed = 1;
 
     float horizontalMovement = 0f;
 
@@ -20,26 +18,42 @@ public class Movement : MonoBehaviour
 
     public bool isIce;
 
+    public Vector2 movement;
+
     private Rigidbody2D playerRigidbody;
-
-    public Transform keyFollowPoint;
-
-    public key followingkey;
-
-    public Animator animator;
-
 
     // Start is called before the first frame update
     void Start()
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
 
+    void Update()
+    {
+        movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+
+        //Move();
+
+
+        if (Input.GetButtonDown("Jump") && Mathf.Abs(playerRigidbody.velocity.y) < 20f)
+        {
+            if (isGrounded)
+            {
+                playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+            }
+
+        }
+    }
+
     private void FixedUpdate()
     {
-        if (isIce == true)
+        Move();
+
+
+        /*if (isIce == true)
         {
             float moveHorizontal = Input.GetAxis("Horizontal");
 
@@ -51,30 +65,10 @@ public class Movement : MonoBehaviour
 
             //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
             playerRigidbody.AddForce(movement * moveSpeed2);
-        }
+        }*/
     }
 
-    private void Update()
-    {
-        animator.SetBool("Jump", !isGrounded);
-        animator.SetBool("Grounded", isGrounded);
-
-        if (isIce == false)
-        {
-            var movement = Input.GetAxis("Horizontal");
-            transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * moveSpeed;
-        }
-        
-
-        if (Input.GetButtonDown("Jump") && Mathf.Abs(playerRigidbody.velocity.y) < 20f)
-        {
-            if (isGrounded)
-            {
-                jump(); 
-            }
-            
-        }
-    }
+    
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -88,6 +82,8 @@ public class Movement : MonoBehaviour
             isGrounded = true;
             isIce = true;
         }
+
+        
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -102,8 +98,16 @@ public class Movement : MonoBehaviour
             isIce = false;
         }
     }
-    void jump()
+
+
+    void Move()
     {
-        playerRigidbody.AddForce(new Vector2(0, jumpSpeed*(horizontalMovement=1)), ForceMode2D.Impulse);
+        //playerRigidbody.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
+
+        float x = Input.GetAxisRaw("Horizontal");
+        float moveBy = x * moveSpeed;
+        playerRigidbody.velocity = new Vector2(moveBy, playerRigidbody.velocity.y);
     }
+
+    
 }
