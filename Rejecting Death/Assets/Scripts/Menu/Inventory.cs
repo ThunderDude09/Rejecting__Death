@@ -17,6 +17,12 @@ public class Inventory : MonoBehaviour
     private int enabledSlots;
     private GameObject[] slot;
 
+    private bool isItEmpty = false;
+
+    private int allSlots2;
+    private int enabledSlots2;
+    private GameObject[] slot2;
+
     public GameObject slotHolder;
 
     void Start()
@@ -24,12 +30,23 @@ public class Inventory : MonoBehaviour
         allSlots = 25;
         slot = new GameObject[allSlots];
 
+        allSlots2 = 24;
+        slot2 = new GameObject[allSlots2];
+
         for (int i = 0; i < allSlots; i++)
         {
             slot[i] = slotHolder.transform.GetChild(i).gameObject;
 
             if (slot[i].GetComponent<Slot>().item == null)
                 slot[i].GetComponent<Slot>().empty = true;
+        }
+
+        for (int j = 1; j < allSlots2; j++)
+        {
+            slot[j] = slotHolder.transform.GetChild(j).gameObject;
+
+            if (slot[j].GetComponent<Slot>().item == null)
+                slot[j].GetComponent<Slot>().empty2 = true;
         }
         shooting_Script = firePoint.GetComponent<Shooting>();
 
@@ -50,8 +67,10 @@ public class Inventory : MonoBehaviour
             {
                 shooting_Script.HasFire = true;
             }
-            else if (item_Script.ID != 1)
+
+            if (item_Script.ID == 2)
             {
+                Debug.Log("Ice");
                 shooting_Script.HasFire = false;
             }
         }
@@ -112,29 +131,61 @@ public class Inventory : MonoBehaviour
 
     void AddItem(GameObject  itemObject, int itemID, string itemType, string itemDescription, Sprite itemIcon)
     {
-        for (int i = 0; i < allSlots; i++)
+        if(isItEmpty == false)
         {
-            
-            if (slot[i].GetComponent<Slot>().empty)
+            for (int i = 0; i < allSlots; i++)
             {
-                Debug.Log("Ice");
-                itemObject.GetComponent<Item>().pickedUp = true;
 
-                slot[i].GetComponent<Slot>().item = itemObject;
-                slot[i].GetComponent<Slot>().icon = itemIcon;
-                slot[i].GetComponent<Slot>().type = itemType;
-                slot[i].GetComponent<Slot>().ID = itemID;
-                slot[i].GetComponent<Slot>().description = itemDescription;
+                if (slot[i].GetComponent<Slot>().empty)
+                {
+                    
+                    itemObject.GetComponent<Item>().pickedUp = true;
 
-                itemObject.transform.parent = slot[i].transform;
-                itemObject.SetActive(false);
+                    slot[i].GetComponent<Slot>().item = itemObject;
+                    slot[i].GetComponent<Slot>().icon = itemIcon;
+                    slot[i].GetComponent<Slot>().type = itemType;
+                    slot[i].GetComponent<Slot>().ID = itemID;
+                    slot[i].GetComponent<Slot>().description = itemDescription;
 
-                slot[i].GetComponent<Slot>().UpdateSlot();
-                slot[i].GetComponent<Slot>().empty = false;
+                    itemObject.transform.parent = slot[i].transform;
+                    itemObject.SetActive(false);
+
+                    slot[i].GetComponent<Slot>().UpdateSlot();
+                    slot[i].GetComponent<Slot>().empty = false;
+                    isItEmpty = true;
+                }
+
+                return;
             }
-
-            return;
         }
+        else
+        {
+            for (int j = 1; j < allSlots2; j++)
+            {
+
+                if (slot[j].GetComponent<Slot>().empty2)
+                {
+                    
+                    itemObject.GetComponent<Item>().pickedUp = true;
+
+                    slot[j].GetComponent<Slot>().item = itemObject;
+                    slot[j].GetComponent<Slot>().icon = itemIcon;
+                    slot[j].GetComponent<Slot>().type = itemType;
+                    slot[j].GetComponent<Slot>().ID = itemID;
+                    slot[j].GetComponent<Slot>().description = itemDescription;
+
+                    itemObject.transform.parent = slot[j].transform;
+                    itemObject.SetActive(false);
+
+                    slot[j].GetComponent<Slot>().UpdateSlot();
+                    slot[j].GetComponent<Slot>().empty2 = false;
+                }
+
+                return;
+            }
+        }
+
+        
     }
 
 }

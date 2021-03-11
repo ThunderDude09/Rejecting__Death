@@ -253,11 +253,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &34893631
@@ -952,11 +955,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &127776355
@@ -1198,11 +1204,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &187658241
@@ -1704,11 +1713,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &259115610
@@ -1993,11 +2005,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &327825470
@@ -2011,7 +2026,7 @@ GameObject:
   - component: {fileID: 327825471}
   - component: {fileID: 327825472}
   m_Layer: 0
-  m_Name: fireball Firepoint
+  m_Name: Sickle Firepoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2052,7 +2067,7 @@ MonoBehaviour:
   equipped: 0
   weapon: {fileID: 0}
   weaponManager: {fileID: 0}
-  playersWeapon: 0
+  playersWeapon: 1
 --- !u!1 &345471743
 GameObject:
   m_ObjectHideFlags: 0
@@ -2586,7 +2601,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2769,11 +2784,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &516382394
@@ -2908,11 +2926,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &516657828
@@ -3104,12 +3125,12 @@ MonoBehaviour:
   ID: 1
   type: Weapon
   description: A sickle that is thrown and comes back
-  icon: {fileID: 21300000, guid: 7413ca411ced1404483e35c08f57cc39, type: 3}
+  icon: {fileID: 21300000, guid: b7cdf8c54d64c3444be09f03a27fea8b, type: 3}
   pickedUp: 0
   equipped: 0
   weapon: {fileID: 0}
   weaponManager: {fileID: 0}
-  playersWeapon: 1
+  playersWeapon: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3340,11 +3361,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &633226958
@@ -3553,11 +3577,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &848766410
@@ -4164,11 +4191,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &976588216
@@ -4303,11 +4333,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1011286367
@@ -4656,11 +4689,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1032360416
@@ -4795,11 +4831,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1034158199
@@ -5008,11 +5047,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1084600436
@@ -5147,11 +5189,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1091869900
@@ -5286,11 +5331,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1112639998
@@ -5425,11 +5473,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1127625899
@@ -5981,11 +6032,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1183644208
@@ -6595,11 +6649,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1307848508
@@ -6922,11 +6979,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1348821138
@@ -6981,7 +7041,7 @@ MonoBehaviour:
   equipped: 0
   weapon: {fileID: 0}
   weaponManager: {fileID: 0}
-  playersWeapon: 0
+  playersWeapon: 1
 --- !u!1 &1364129420
 GameObject:
   m_ObjectHideFlags: 0
@@ -6995,7 +7055,7 @@ GameObject:
   - component: {fileID: 1364129422}
   - component: {fileID: 1364129424}
   m_Layer: 0
-  m_Name: New SpriteShapeController (1)
+  m_Name: Firepoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7278,11 +7338,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1436759058
@@ -7417,11 +7480,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1504106688
@@ -7630,11 +7696,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1572138451
@@ -7769,11 +7838,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1584042426
@@ -7908,11 +7980,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1636536154
@@ -8047,11 +8122,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e13b795fe996e4aabae68f8047a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 1364129420}
+  TheFireItem: {fileID: 516657828}
   item: {fileID: 0}
   ID: 0
   type: 
   description: 
   empty: 0
+  empty2: 0
   slotIconGO: {fileID: 0}
   icon: {fileID: 0}
 --- !u!1 &1763995177

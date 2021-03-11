@@ -56,13 +56,13 @@ public class Item : MonoBehaviour
     {
         if(type == "Weapon")
         {
-            //weapon.SetActive(true);
-            equipped = true;
-        }
+            if(ID == 1)
+            {
+                equipped = true;
+            }
 
-        if(type == "Projectile")
-        {
-            equipped = true;
+            //weapon.SetActive(true);
+            
         }
     }
 }
