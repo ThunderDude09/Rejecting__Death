@@ -11,6 +11,10 @@ TagManager:
   - Ghost
   - Gem
   - WeaponManager
+  - FireProjectile
+  - FireGem
+  - IceGem
+  - Sickle
   layers:
   - Default
   - TransparentFX

@@ -46,7 +46,14 @@ public class Inventory : MonoBehaviour
                 //shooting_Script.HasFire = false;
                 //Debug.Log("Hello");
             }
-            shooting_Script.HasFire = true;
+            if (item_Script.ID == 1)
+            {
+                shooting_Script.HasFire = true;
+            }
+            else if (item_Script.ID != 1)
+            {
+                shooting_Script.HasFire = false;
+            }
         }
 
         /*for (int i = 0; i < allSlots; i++)
@@ -80,7 +87,18 @@ public class Inventory : MonoBehaviour
             AddItem(ItemPickedUp, item.ID, item.type, item.description, item.icon);
         }*/
 
-        if (collision.gameObject.CompareTag("Gem"))
+        if (collision.gameObject.CompareTag("Sickle"))
+        {
+            //shooting_Script.HasFire = true;
+            //Destroy(collision.gameObject);
+
+            GameObject ItemPickedUp = collision.gameObject;
+            Item item = ItemPickedUp.GetComponent<Item>();
+
+            AddItem(ItemPickedUp, item.ID, item.type, item.description, item.icon);
+        }
+
+        if (collision.gameObject.CompareTag("IceGem"))
         {
             //shooting_Script.HasFire = true;
             //Destroy(collision.gameObject);
@@ -96,8 +114,10 @@ public class Inventory : MonoBehaviour
     {
         for (int i = 0; i < allSlots; i++)
         {
-            if(slot[i].GetComponent<Slot>().empty)
+            
+            if (slot[i].GetComponent<Slot>().empty)
             {
+                Debug.Log("Ice");
                 itemObject.GetComponent<Item>().pickedUp = true;
 
                 slot[i].GetComponent<Slot>().item = itemObject;

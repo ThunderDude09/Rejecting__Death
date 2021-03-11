@@ -59,5 +59,10 @@ public class Item : MonoBehaviour
             //weapon.SetActive(true);
             equipped = true;
         }
+
+        if(type == "Projectile")
+        {
+            equipped = true;
+        }
     }
 }

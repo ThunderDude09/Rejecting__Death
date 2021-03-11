@@ -21,7 +21,6 @@ public class Slot : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData pointerEventData)
     {
         UseItem();
-        
     }
 
     private void Start()
