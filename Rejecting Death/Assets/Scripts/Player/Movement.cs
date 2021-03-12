@@ -22,6 +22,10 @@ public class Movement : MonoBehaviour
 
     private Rigidbody2D playerRigidbody;
 
+    public Transform keyFollowPoint;
+
+    public key followingkey;
+
     // Start is called before the first frame update
     void Start()
     {
