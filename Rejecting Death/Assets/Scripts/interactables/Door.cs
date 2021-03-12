@@ -8,7 +8,7 @@ public class Door : MonoBehaviour
 
     public SpriteRenderer theSR;
     public Sprite doorOpenSprite;
-
+    key followingkey;
     public bool doorOpen, waitingtoOpen;
 
     // Start is called before the first frame update

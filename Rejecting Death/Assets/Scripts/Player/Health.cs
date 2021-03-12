@@ -78,4 +78,9 @@ public class Health : MonoBehaviour
     {
         bar.fillAmount = (float)playerHp / currentHealth;
     }
+
+    public void takeDamage(float damage)
+    {
+        currentHealth -= damage;
+    }
 }
