@@ -10,7 +10,7 @@ public class Door : MonoBehaviour
     public Sprite doorOpenSprite;
     key followingkey;
     public bool doorOpen, waitingtoOpen;
-
+    int scoremod = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +33,10 @@ public class Door : MonoBehaviour
 
                 thePlayer.followingkey.gameObject.SetActive(false);
                 thePlayer.followingkey = null;
+
+                GameManager.instance.AddScore(scoremod);
+
+                 
             }
         }
     }
