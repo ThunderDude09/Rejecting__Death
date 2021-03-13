@@ -23,8 +23,8 @@ public class CrosshairCursor : MonoBehaviour
         //crosshair.transform.position = Vector2.Lerp(transform.position * 9, MouseCoords * 9, MouseSensitivity);
         //print(MouseCoords);
 
-      //  Vector2 mouseCursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-      //  transform.position = mouseCursorPos;
+        Vector2 mouseCursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        transform.position = mouseCursorPos;
 
     }
 }
