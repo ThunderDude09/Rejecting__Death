@@ -5,11 +5,16 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     private Movement thePlayer;
+    public Animator door;
+    [SerializeField] private key.KeyType keyType;
 
-    public SpriteRenderer theSR;
-    public Sprite doorOpenSprite;
+    public key.KeyType GetKeyType()
+    {
+        return keyType;
+    }
+    
     key followingkey;
-    public bool doorOpen, waitingtoOpen;
+    public bool  waitingtoOpen;
     int scoremod = 1;
     // Start is called before the first frame update
     void Start()
@@ -26,30 +31,36 @@ public class Door : MonoBehaviour
             {
                 waitingtoOpen = false;
 
-                doorOpen = true;
-
-
-                theSR.sprite = doorOpenSprite;
-
                 thePlayer.followingkey.gameObject.SetActive(false);
                 thePlayer.followingkey = null;
 
-                GameManager.instance.AddScore(scoremod);
+                door.SetBool("Open", true);
 
-                 
+
+
+
+
+                
+                GameObject.Destroy(gameObject);
             }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if(collision.CompareTag("Player"))
         {
             if (thePlayer.followingkey != null)
             {
+                if (keyType == thePlayer.followingkey.GetComponent<key>().keyType)
                 thePlayer.followingkey.folowTarget = transform;
                 waitingtoOpen = true;
             }
         }
     }
+
+
+
+    
 }
