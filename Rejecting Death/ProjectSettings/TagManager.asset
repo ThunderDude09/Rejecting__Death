@@ -4,14 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - WeaponManager
-  - IceFloor
-  - IceGem
-  - Sickle
-  - ground
-  - IceSpike
-  - Ghost
   - FireProjectile
+  - ground
   layers:
   - Default
   - TransparentFX
@@ -21,9 +15,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - 'Enemy '
+  - player
+  - objects
   - 
   - 
   - 

@@ -26,6 +26,8 @@ public class Movement : MonoBehaviour
 
     public key followingkey;
 
+    public Animator Dan;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +40,17 @@ public class Movement : MonoBehaviour
     void Update()
     {
         movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        
+        Vector3 characterScale = transform.localScale;
+        if(Input.GetAxis("Horizontal")< 0)
+        {
+            characterScale.x = -5 ;
+        }
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            characterScale.x = 5;
+        }
+        transform.localScale = characterScale;
 
         //Move();
 
@@ -47,9 +60,13 @@ public class Movement : MonoBehaviour
             if (isGrounded)
             {
                 playerRigidbody.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+                Dan.SetBool("Jump", true);
+                
             }
 
         }
+
+        
     }
 
     private void FixedUpdate()
@@ -79,6 +96,7 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.CompareTag("ground"))
         {
             isGrounded = true;
+            Dan.SetBool("Jump", false);
             
         }
         else if (collision.gameObject.CompareTag("IceFloor"))
@@ -111,7 +129,9 @@ public class Movement : MonoBehaviour
         float x = Input.GetAxisRaw("Horizontal");
         float moveBy = x * moveSpeed;
         playerRigidbody.velocity = new Vector2(moveBy, playerRigidbody.velocity.y);
+        Dan.SetFloat("run", Mathf.Abs(moveBy));
     }
 
+   
     
 }

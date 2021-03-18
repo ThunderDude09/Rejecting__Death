@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class key : MonoBehaviour
 {
+    public enum KeyType
+    {
+        normal,
+        sacred,
+        boss,
+        secret,
+        World
+    }
+
+    [SerializeField] public KeyType keyType;
 
     private bool isFollowing;
 
