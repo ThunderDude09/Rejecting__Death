@@ -31,8 +31,19 @@ public class GhostEnemyMovement : MonoBehaviour
     void Update()
     {
         playerInRange = Physics2D.OverlapCircle(transform.position, playerRange, playerLayer);
+        Vector3 characterScale = transform.localScale;
 
-        
+
+        if (player.position.x < transform.position.x)
+        {
+            characterScale.x = -5;
+        }
+        if (player.position.x > transform.position.x)
+        {
+            characterScale.x = 5;
+        }
+        transform.localScale = characterScale;
+
 
         if (playerInRange)
         {
@@ -59,6 +70,6 @@ public class GhostEnemyMovement : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.DrawSphere(transform.position, playerRange);
+        Gizmos.DrawWireSphere (transform.position, playerRange);
     }
 }

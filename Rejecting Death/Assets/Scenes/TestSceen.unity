@@ -121,6 +121,28 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &249455357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6880195398579693484, guid: 69d2c866aec1a1c4998ceec67d9e19ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 2046147181403221142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &249455358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249455357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db59ed13040d342459c8b387d8a3f754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  keyType: 0
+  LevelIndex: 4
+  waitingtoOpen: 0
 --- !u!1 &315858144
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa3ec5bf7cff1e644bb5725cb1b431ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyType: 0
   followSpeed: 3
   folowTarget: {fileID: 0}
 --- !u!212 &315858146
@@ -21374,7 +21397,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2191891189142453587, guid: 69d2c866aec1a1c4998ceec67d9e19ec, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 69d2c866aec1a1c4998ceec67d9e19ec, type: 3}
 --- !u!1001 &2391452746388562620
 PrefabInstance:

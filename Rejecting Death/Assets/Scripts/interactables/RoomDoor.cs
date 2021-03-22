@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class RoomDoor : MonoBehaviour
 {
     private Movement thePlayer;
@@ -74,6 +74,6 @@ public class RoomDoor : MonoBehaviour
 
     public void open()
     {
-        
+        SceneManager.LoadScene(LevelIndex);
     }
 }

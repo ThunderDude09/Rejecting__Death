@@ -62,6 +62,7 @@ GameObject:
   - component: {fileID: 1368625870328271461}
   - component: {fileID: 2679596937109468214}
   - component: {fileID: 4711963055699887180}
+  - component: {fileID: 5248521406365123097}
   m_Layer: 0
   m_Name: Sickle Projectile
   m_TagString: Untagged
@@ -324,6 +325,20 @@ CircleCollider2D:
   m_Offset: {x: -0.7959134, y: -0.15408419}
   serializedVersion: 2
   m_Radius: 3.1284146
+--- !u!114 &5248521406365123097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7863196964432321927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9c075192318a114c80f276db754958d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 4069484365867061293}
+  rotateSpeed: 200
 --- !u!1 &8245467924778130309
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +349,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5940334298982201377}
   - component: {fileID: 5034457655391378589}
-  - component: {fileID: 241191261477489591}
   m_Layer: 0
   m_Name: Sickle
   m_TagString: Untagged
@@ -406,16 +420,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &241191261477489591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8245467924778130309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9c075192318a114c80f276db754958d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeed: 1.69

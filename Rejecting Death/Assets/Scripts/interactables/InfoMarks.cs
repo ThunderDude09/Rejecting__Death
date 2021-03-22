@@ -21,7 +21,7 @@ public class InfoMarks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("up") && playerInRange)
+        if((Input.GetKeyDown("up")||Input.GetKeyDown(KeyCode.W)) && playerInRange)
         {
             if(DialogeBox.activeInHierarchy)
             {

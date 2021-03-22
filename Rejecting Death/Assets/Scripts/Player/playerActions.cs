@@ -14,29 +14,42 @@ public class playerActions : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             punch();
+        }
+
+        if (Input.GetMouseButtonDown(2))
+        {
+            Throw();
         }
     }
 
     public void Orda()
     {
-        Collider2D[] hitTargets = Physics2D.OverlapCircleAll(Attackpoint.position, atkRange,otherlayer);
+        Collider2D[] hitTargets = Physics2D.OverlapCircleAll(Attackpoint.position, atkRange, otherlayer);
 
         foreach (Collider2D target in hitTargets)
         {
             Debug.Log("Hit" + target.name);
             target.GetComponent<Health>().takeDamage(7);
         }
-        Dan.SetBool("punch", false);
+        //Dan.SetBool("punch", false);
     }
-    public void punch()
-    {
-        Dan.SetBool("punch", true);
-    }
-        
 
+    public void DanShot()
+    {
+
+    }
+    private void punch()
+    {
+        Dan.SetTrigger("Punch");
+    }
+
+    public void Throw()
+    {
+        Dan.SetTrigger("Throw");
+    }
         
 
     private void OnDrawGizmosSelected()

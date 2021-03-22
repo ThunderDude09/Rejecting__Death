@@ -18,7 +18,7 @@ public class Killzone : MonoBehaviour
     {
         
     }
-    void OnTriggerEnter(BoxCollider2D other)
+    public void OnTriggerEnter(BoxCollider2D other)
     {
         Destroy(other);
         if (other.gameObject.tag == "Player")
