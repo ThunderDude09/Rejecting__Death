@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FireProjectile
   - ground
+  - IceSpike
   layers:
   - Default
   - TransparentFX
