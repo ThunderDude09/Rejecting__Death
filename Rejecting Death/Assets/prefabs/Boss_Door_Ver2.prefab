@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6945551911397248391}
   - component: {fileID: 741572742201081176}
-  - component: {fileID: 2191891189142453587}
   - component: {fileID: 4463964457193038302}
+  - component: {fileID: 199488868401454061}
+  - component: {fileID: 8413791114208489080}
   m_Layer: 0
   m_Name: Boss_Door_Ver2
   m_TagString: Untagged
@@ -83,23 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2191891189142453587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6880195398579693484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac681d9b490b0a1419350b2756904543, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theSR: {fileID: 741572742201081176}
-  doorOpenSprite: {fileID: 21300000, guid: 6c040d75ce2508f43bf0cb95cbd5275a, type: 3}
-  doorOpen: 0
-  waitingtoOpen: 0
-  blok: {fileID: 0}
 --- !u!61 &4463964457193038302
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -126,3 +110,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.6875, y: 8}
   m_EdgeRadius: 0
+--- !u!95 &199488868401454061
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6880195398579693484}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0a182ca8c5b71f438b61a2964b8c300, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8413791114208489080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6880195398579693484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db59ed13040d342459c8b387d8a3f754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 199488868401454061}
+  keyType: 2
+  LevelIndex: 0
+  waitingtoOpen: 0
