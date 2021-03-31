@@ -8,6 +8,10 @@ public class playerActions : MonoBehaviour
     public float atkRange = 0.5f;
     public LayerMask otherlayer;
     public Animator Dan;
+    public GameObject Projectile;
+    public float tForce  = 20f;
+    Vector2 mousePosition;
+    public Camera cam;
     private void Start()
     {
         Attackpoint = GameObject.Find("Action").GetComponent<Transform>();
@@ -19,7 +23,7 @@ public class playerActions : MonoBehaviour
             punch();
         }
 
-        if (Input.GetMouseButtonDown(2))
+        if (Input.GetMouseButtonDown(1))
         {
             Throw();
         }
@@ -39,7 +43,10 @@ public class playerActions : MonoBehaviour
 
     public void DanShot()
     {
-
+        mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+        GameObject projectile = Instantiate(Projectile, Attackpoint.position, Attackpoint.rotation);
+        Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+        rb.AddForce( mousePosition * tForce, ForceMode2D.Impulse);
     }
     private void punch()
     {
@@ -48,7 +55,7 @@ public class playerActions : MonoBehaviour
 
     public void Throw()
     {
-        Dan.SetTrigger("Throw");
+        Dan.SetTrigger("throw");
     }
         
 

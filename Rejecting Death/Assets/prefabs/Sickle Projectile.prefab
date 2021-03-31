@@ -338,7 +338,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 4069484365867061293}
-  rotateSpeed: 200
+  rotateSpeed: 4
+  moveSpeed: 0
+  cam: {fileID: 0}
 --- !u!1 &8245467924778130309
 GameObject:
   m_ObjectHideFlags: 0
