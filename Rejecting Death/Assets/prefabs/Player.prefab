@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4.76
-  jumpSpeed: 8
+  jumpSpeed: 7
   isGrounded: 0
   isIce: 0
   movement: {x: -3.93, y: 0}
@@ -323,3 +323,5 @@ MonoBehaviour:
   Dan: {fileID: 4711380886888852362}
   Projectile: {fileID: 7863196964432321927, guid: 90a06dcffba498a4b8b1ee6777d5642b,
     type: 3}
+  tForce: 20
+  cam: {fileID: 0}
