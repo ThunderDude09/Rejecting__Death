@@ -62,20 +62,20 @@ public class Health : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ghost"))
-        {
-            playerHp -= GhostEnemyDam;
-            Debug.Log(playerHp);
-            UpdateHUD();
-        }
+ //   private void OnTriggerStay2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Ghost"))
+    //    {
+    //        playerHp -= GhostEnemyDam;
+    //        Debug.Log(playerHp);
+    //        UpdateHUD();
+    //    }
 
-        if (playerHp == 0)
-        {
-            SceneManager.LoadScene(goToLevel);
-        }
-    }
+    //    if (playerHp == 0)
+    //    {
+    //        SceneManager.LoadScene(goToLevel);
+    //    }
+    //}
 
 
     void UpdateHUD()
