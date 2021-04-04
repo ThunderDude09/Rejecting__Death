@@ -4,10 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FireProjectile
-  - ground
   - IceSpike
-  - object
+  - Spike
+  - ground
+  - IceFloor
+  - Ghost
+  - Gem
+  - WeaponManager
+  - FireProjectile
+  - FireGem
+  - IceGem
+  - Sickle
+  - skeleton
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -17,9 +26,9 @@ TagManager:
   - UI
   - 
   - 
-  - 'Enemy '
+  - Front
   - player
-  - objects
+  - 
   - 
   - 
   - 
@@ -44,4 +53,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: back
+    uniqueID: 1088289839
+    locked: 0
+  - name: Front
+    uniqueID: 1799101123
     locked: 0
