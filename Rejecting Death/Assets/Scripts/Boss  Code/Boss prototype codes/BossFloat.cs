@@ -7,6 +7,7 @@ public class BossFloat : StateMachineBehaviour
     public float speed = 1.5f;
     public float maxAttackRange = 6f;
     public float minAttackRange = 8f;
+    public float timer = 5;
     
     Transform player;
     Rigidbody2D rb;
@@ -29,15 +30,19 @@ public class BossFloat : StateMachineBehaviour
         Vector2 target = new Vector2(player.position.x, rb.position.y);
         Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
         rb.MovePosition(newPos);
-        
-       if (Vector2.Distance(player.position, rb.position) <= minAttackRange) 
-        {
-            animator.SetTrigger("Attack");
-        }
-       else if( Vector2.Distance(player.position, rb.position) >= maxAttackRange )
-        {
-            animator.SetTrigger("Range");
-        }
+        timer -= Time.fixedDeltaTime;
+        //if (timer == 0)
+        //{
+            if (Vector2.Distance(player.position, rb.position) <= minAttackRange)
+            {
+                animator.SetTrigger("Attack");
+            }
+            else if (Vector2.Distance(player.position, rb.position) >= maxAttackRange)
+            {
+                animator.SetTrigger("Range");
+            }
+            timer = 20;
+        //}
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

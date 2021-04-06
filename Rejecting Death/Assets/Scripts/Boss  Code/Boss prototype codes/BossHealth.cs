@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossHealth : MonoBehaviour
 {
     public float bossHPMax = 100f;
-    float currentBossHP;
+   public float currentBossHP;
     void Start()
     {
         currentBossHP = bossHPMax;

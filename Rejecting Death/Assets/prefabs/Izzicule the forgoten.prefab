@@ -17,7 +17,8 @@ GameObject:
   - component: {fileID: -6507021441867949173}
   - component: {fileID: 7190169288549256560}
   - component: {fileID: 743397137928320249}
-  m_Layer: 10
+  - component: {fileID: 7074321718927139488}
+  m_Layer: 8
   m_Name: Izzicule the forgoten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 511782599077208905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 50.59, y: -5.62, z: -1.9296875}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 879191639421948597}
   - {fileID: 7220703290150989172}
@@ -141,7 +142,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.01, y: 0.44}
@@ -185,6 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36f61a279558e6d4294728edfb31ca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossHPMax: 100
 --- !u!114 &7190169288549256560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,10 +214,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Attackpoint: {fileID: 7220703290150989172}
+  Rangepoint: {fileID: 879191639421948597}
   atkRange: 0.95
   playerlayer:
     serializedVersion: 2
     m_Bits: 2048
+  ice: {fileID: 5933751022364319445, guid: d85aa3968ebc2204ab6fb59e67382935, type: 3}
+--- !u!66 &7074321718927139488
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511782599077208905}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths: []
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
 --- !u!1 &1296148376215865273
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,12 @@ public class playerActions : MonoBehaviour
     public float tForce  = 20f;
     Vector2 mousePosition;
     public Camera cam;
+    public AudioClip punchA, throwA;
+    public AudioSource player;
+        private void OnAudioFilterRead(float[] data, int channels)
+    {
+
+    }
     private void Start()
     {
         Attackpoint = GameObject.Find("Action").GetComponent<Transform>();
@@ -32,11 +38,13 @@ public class playerActions : MonoBehaviour
     public void Orda()
     {
         Collider2D[] hitTargets = Physics2D.OverlapCircleAll(Attackpoint.position, atkRange, otherlayer);
-
+        player.clip = punchA;
+        player.Play();
         foreach (Collider2D target in hitTargets)
         {
             Debug.Log("Hit" + target.name);
-            target.GetComponent<Health>().takeDamage(7);
+            //target.GetComponent<GhostHealth>().takeDamage(7);
+            target.GetComponent<BossHealth>().TakeDamage(7);
         }
         //Dan.SetBool("punch", false);
     }
@@ -44,18 +52,22 @@ public class playerActions : MonoBehaviour
     public void DanShot()
     {
         mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+        player.clip = throwA;
+        player.Play();
         GameObject projectile = Instantiate(Projectile, Attackpoint.position, Attackpoint.rotation);
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-        rb.AddForce( mousePosition * tForce, ForceMode2D.Impulse);
+        rb.AddForce( new Vector2(mousePosition.x,transform.position.y) * tForce, ForceMode2D.Impulse);
     }
     private void punch()
     {
         Dan.SetTrigger("Punch");
+        
     }
 
     public void Throw()
     {
         Dan.SetTrigger("throw");
+
     }
         
 
