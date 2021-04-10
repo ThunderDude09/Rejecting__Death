@@ -43,8 +43,10 @@ public class playerActions : MonoBehaviour
         foreach (Collider2D target in hitTargets)
         {
             Debug.Log("Hit" + target.name);
-            //target.GetComponent<GhostHealth>().takeDamage(7);
+           // target.GetComponent<GhostHealth>()//.takeDamage(7);
             target.GetComponent<BossHealth>().TakeDamage(7);
+           
+
         }
         //Dan.SetBool("punch", false);
     }

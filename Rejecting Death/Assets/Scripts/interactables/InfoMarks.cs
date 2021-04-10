@@ -10,12 +10,15 @@ public class InfoMarks : MonoBehaviour
     public Text infoText;
     public string text;
 
+    public AudioSource audioSource;
+    public AudioClip laughter;
+
     public bool textActive;
     public bool playerInRange;
     // Start is called before the first frame update
     void Start()
     {
-        
+         audioSource.clip = laughter;
     }
 
     // Update is called once per frame
@@ -26,11 +29,13 @@ public class InfoMarks : MonoBehaviour
             if(DialogeBox.activeInHierarchy)
             {
                 DialogeBox.SetActive(false);
+               
             }
             else
             {
                 DialogeBox.SetActive(true);
                 infoText.text = text;
+               
             }
         }
     }
@@ -40,6 +45,7 @@ public class InfoMarks : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = true;
+            audioSource.Play();
         }
     }
 
@@ -49,6 +55,7 @@ public class InfoMarks : MonoBehaviour
         {
             playerInRange = false;
             DialogeBox.SetActive(false);
+           // audioSource.Play();
         }
     }
 }

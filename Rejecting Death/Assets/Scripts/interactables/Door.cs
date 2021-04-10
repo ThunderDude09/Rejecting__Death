@@ -6,6 +6,9 @@ public class Door : MonoBehaviour
 {
     private Movement thePlayer;
     public Animator door;
+
+    public AudioClip doorSound;
+    public AudioSource doorS;
     [SerializeField] private key.KeyType keyType;
 
     public key.KeyType GetKeyType()

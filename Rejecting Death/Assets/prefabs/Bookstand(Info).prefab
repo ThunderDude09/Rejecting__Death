@@ -129,8 +129,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8313288688960726765}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.886, y: -2.668, z: 0}
-  m_LocalScale: {x: 2.091734, y: 2.2351096, z: 1}
+  m_LocalPosition: {x: 6.712, y: -2.842, z: 0}
+  m_LocalScale: {x: 2, y: 2.34, z: 1}
   m_Children:
   - {fileID: 8313288688835230464}
   m_Father: {fileID: 0}
@@ -227,5 +227,7 @@ MonoBehaviour:
   DialogeBox: {fileID: 0}
   infoText: {fileID: 0}
   text: 
+  audioSource: {fileID: 0}
+  laughter: {fileID: 8300000, guid: ecd9ef0e14c2dd84783f89ae2d5b9848, type: 3}
   textActive: 0
   playerInRange: 0
