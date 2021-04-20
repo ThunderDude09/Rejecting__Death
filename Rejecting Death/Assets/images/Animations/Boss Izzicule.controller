@@ -288,9 +288,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63eea26087f1be408f4929deb8d2637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.82
+  speed: 1.6
   maxAttackRange: 10
   minAttackRange: 6
+  timer: 5
 --- !u!114 &-2287914991875061634
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -306,6 +307,7 @@ MonoBehaviour:
   speed: 1.5
   maxAttackRange: 10
   minAttackRange: 6
+  timer: 5
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0

@@ -5,13 +5,14 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform player;
+    public int csize;
    // public Vector3 offset;
     //public float cameraDistance = 10.0f, smoothFactor;
    // public Vector3 minValue, maxValue;
 
     void Awake()
     {
-        GetComponent<UnityEngine.Camera>().orthographicSize = 5; //((Screen.height / 2) / cameraDistance);
+        GetComponent<UnityEngine.Camera>().orthographicSize = csize; //((Screen.height / 2) / cameraDistance);
     }
 
     void FixedUpdate()
