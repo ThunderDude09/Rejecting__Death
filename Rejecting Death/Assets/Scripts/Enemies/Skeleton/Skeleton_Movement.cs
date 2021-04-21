@@ -68,7 +68,7 @@ public class Skeleton_Movement : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.DrawSphere(transform.position, playerRange2);
+        Gizmos.DrawWireSphere(transform.position, playerRange2);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
