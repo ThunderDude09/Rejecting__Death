@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Rejecting Death/Assets/Scripts/Enemies/Demon.meta
 guid: 750d11b587d8ba64997d56aab883cace
+=======
+guid: 9821c40d3c985554ca5b313686b59b03
+>>>>>>> 81627bf1f0b9edcd4263d6afcb6558bfbf5f716e:Rejecting Death/Assets/Timelines.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
