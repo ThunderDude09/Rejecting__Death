@@ -4,78 +4,92 @@ using UnityEngine;
 
 public class Skeleton_Movement : MonoBehaviour
 {
-    public Transform player2;
+    public Transform player3;
 
-    public float MoveSpeed2;
+    public float MoveSpeed3;
 
-    public float playerRange2;
+    public float distance;
 
-    public LayerMask playerLayer2;
+    private bool movingRight = true;
 
-    public bool playerInRange2;
+    public float playerRange3;
 
-    private Vector2 Emovement2;
+    public LayerMask playerLayer3;
 
-    private Rigidbody2D erb2;
+    public bool playerInRange3;
+
+    private Vector2 Emovement3;
+
+    private Rigidbody2D erb3;
+
+    public Transform groundDetection;
 
     // Start is called before the first frame update
     void Start()
     {
         //player = FindObjectOfType<Movement>();
-        erb2 = GetComponent<Rigidbody2D>();
+        erb3 = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        playerInRange2 = Physics2D.OverlapCircle(transform.position, playerRange2, playerLayer2);
+        //playerInRange3 = Physics2D.OverlapCircle(transform.position, playerRange3, playerLayer3);
+
+        transform.Translate(Vector2.right * MoveSpeed3 * Time.deltaTime);
+
+        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, 2f);
+        if (groundInfo.collider == false)
+        {
+            if(movingRight == true)
+            {
+                transform.eulerAngles = new Vector3(0, -180, 0);
+                movingRight = false;
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                movingRight = true;
+            }
+        }
 
 
-
-        if (playerInRange2)
+        if (playerInRange3)
         {
             //transform.position = Vector3.MoveTowards(transform.position, player.transform.position, MoveSpeed * Time.deltaTime);
-            Vector3 Pldirection = player2.position - transform.position;
+            Vector3 Pldirection = player3.position - transform.position;
             Pldirection.Normalize();
-            Emovement2 = Pldirection;
+            Emovement3 = Pldirection;
         }
     }
 
     private void FixedUpdate()
     {
-        if (playerInRange2)
+        /*if (playerInRange3)
         {
-            moveGEnemy(Emovement2);
-        }
+            moveGEnemy(Emovement3);
+        }*/
     }
 
 
     void moveGEnemy(Vector2 Pldirection)
     {
         //erb2.MovePosition((Vector2)transform.position + (Pldirection * MoveSpeed2 * Time.deltaTime));
-        
 
-        if(transform.position.x < player2.position.x)
+
+        if (transform.position.x < player3.position.x)
         {
-            erb2.velocity = new Vector2(MoveSpeed2, erb2.velocity.y);
+            erb3.velocity = new Vector2(MoveSpeed3, 0);
         }
         else
         {
-            erb2.velocity = new Vector2(-MoveSpeed2, erb2.velocity.y);
+            erb3.velocity = new Vector2(-MoveSpeed3, 0);
         }
 
     }
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.DrawSphere(transform.position, playerRange2);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Obstacle"))
-        {
-            erb2.AddForce(Vector2.up * 300f);
-        }
+        Gizmos.DrawSphere(transform.position, playerRange3);
     }
 }
