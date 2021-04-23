@@ -90,18 +90,16 @@ public class Skeleton_Movement : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-<<<<<<< HEAD
         Gizmos.DrawSphere(transform.position, playerRange3);
-=======
-        Gizmos.DrawWireSphere(transform.position, playerRange2);
+
+        Gizmos.DrawWireSphere(transform.position, playerRange3);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            erb2.AddForce(Vector2.up * 300f);
+            erb3.AddForce(Vector2.up * 300f);
         }
->>>>>>> 81627bf1f0b9edcd4263d6afcb6558bfbf5f716e
     }
 }
