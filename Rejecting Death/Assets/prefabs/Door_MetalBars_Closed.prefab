@@ -72,6 +72,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 4189655028541650807}
+  doorSound: {fileID: 8300000, guid: e4929fc4d9273014fbb6f9bef579b465, type: 3}
+  doorS: {fileID: 0}
   keyType: 0
   waitingtoOpen: 1
 --- !u!1 &1681244768822740076

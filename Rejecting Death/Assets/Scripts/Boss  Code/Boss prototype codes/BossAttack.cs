@@ -30,6 +30,7 @@ public class BossAttack : MonoBehaviour
         {
             Debug.Log("Hit" + player.name);
             player.GetComponent<Health>().takeDamage(7);
+            player.GetComponent<Rigidbody2D>().AddForce(new Vector2 (target.x,0),ForceMode2D.Impulse);
         }
 
     }

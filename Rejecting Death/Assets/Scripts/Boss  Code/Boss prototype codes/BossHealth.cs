@@ -29,5 +29,6 @@ public class BossHealth : MonoBehaviour
         //die animation
 
         //diable animation
+        Destroy(gameObject);
     }
 }
