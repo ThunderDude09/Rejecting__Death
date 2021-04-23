@@ -21,7 +21,7 @@ public class orderPuzzle : MonoBehaviour
     {
         
         i = 0;
-        // playerGuess = new int[correctOrder.Length];
+        playerGuess = new int[correctOrder.Length];
         reward.SetActive(false);
     }
 
