@@ -28,7 +28,7 @@ public class Skeleton_Movement : MonoBehaviour
     void Start()
     {
         //player = FindObjectOfType<Movement>();
-        erb3 = GetComponent<Rigidbody2D>();
+        //erb3 = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -54,13 +54,13 @@ public class Skeleton_Movement : MonoBehaviour
         }
 
 
-        if (playerInRange3)
+        /*if (playerInRange3)
         {
             //transform.position = Vector3.MoveTowards(transform.position, player.transform.position, MoveSpeed * Time.deltaTime);
             Vector3 Pldirection = player3.position - transform.position;
             Pldirection.Normalize();
             Emovement3 = Pldirection;
-        }
+        }*/
     }
 
     private void FixedUpdate()
@@ -77,29 +77,29 @@ public class Skeleton_Movement : MonoBehaviour
         //erb2.MovePosition((Vector2)transform.position + (Pldirection * MoveSpeed2 * Time.deltaTime));
 
 
-        if (transform.position.x < player3.position.x)
+        /*if (transform.position.x < player3.position.x)
         {
             erb3.velocity = new Vector2(MoveSpeed3, 0);
         }
         else
         {
             erb3.velocity = new Vector2(-MoveSpeed3, 0);
-        }
+        }*/
 
     }
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.DrawSphere(transform.position, playerRange3);
+        //Gizmos.DrawSphere(transform.position, playerRange3);
 
-        Gizmos.DrawWireSphere(transform.position, playerRange3);
+        //Gizmos.DrawWireSphere(transform.position, playerRange3);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Obstacle"))
+        /*if (collision.gameObject.CompareTag("Obstacle"))
         {
             erb3.AddForce(Vector2.up * 300f);
-        }
+        }*/
     }
 }
