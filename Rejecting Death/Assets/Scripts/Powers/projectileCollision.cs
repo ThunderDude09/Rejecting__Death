@@ -20,10 +20,10 @@ public class projectileCollision : MonoBehaviour
         {
 
         }
-        //else if (collision.gameObject.CompareTag("Player"))
-        //{
+        else if (collision.gameObject.CompareTag("Player"))
+        {
 
-        //}
+        }
         //else
         //{
         //    Destroy(gameObject);
@@ -37,10 +37,10 @@ public class projectileCollision : MonoBehaviour
         {
 
         }
-        //else if (collision.gameObject.CompareTag("Player"))
-        //{
+        else if (collision.gameObject.CompareTag("Player"))
+        {
 
-        //}
+        }
         //else
         //{
         //    Destroy(gameObject);
