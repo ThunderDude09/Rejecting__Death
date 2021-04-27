@@ -45,6 +45,11 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void TakeDamage(int damage)
+    {
+        playerHp -= damage;
+    }
+
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("IceSpike"))
@@ -54,7 +59,9 @@ public class Health : MonoBehaviour
             UpdateHUD();
         }
 
-        
+
+
+
 
         if (playerHp == 0)
         {
@@ -62,20 +69,20 @@ public class Health : MonoBehaviour
         }
     }
 
- //   private void OnTriggerStay2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Ghost"))
-    //    {
-    //        playerHp -= GhostEnemyDam;
-    //        Debug.Log(playerHp);
-    //        UpdateHUD();
-    //    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ghost"))
+        {
+            playerHp -= GhostEnemyDam;
+            Debug.Log(playerHp);
+            UpdateHUD();
+        }
 
-    //    if (playerHp == 0)
-    //    {
-    //        SceneManager.LoadScene(goToLevel);
-    //    }
-    //}
+        if (playerHp == 0)
+        {
+            SceneManager.LoadScene(goToLevel);
+        }
+    }
 
 
     void UpdateHUD()
@@ -98,7 +105,7 @@ public class Health : MonoBehaviour
 
 
 
-        playerHp = data.health;
+        //playerHp = data.health;
 
         SceneManager.LoadScene(data.LV);
 
