@@ -78,7 +78,7 @@ public class GhostEnemyMovement : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, atkRange);
     }
 
-    private void OnTriggerStay2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         attack();
     }
