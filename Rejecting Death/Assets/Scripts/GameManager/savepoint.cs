@@ -11,7 +11,7 @@ public class savepoint : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            player.GetComponent<Health>().savePlayer();
+            //player.GetComponent<Health>().savePlayer();
         }
     }
 }

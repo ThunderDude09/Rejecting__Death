@@ -18,6 +18,7 @@ TagManager:
   - skeleton
   - Obstacle
   - object
+  - DemonSword
   layers:
   - Default
   - TransparentFX

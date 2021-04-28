@@ -69,7 +69,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    /*private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Ghost"))
         {
@@ -82,7 +82,7 @@ public class Health : MonoBehaviour
         {
             SceneManager.LoadScene(goToLevel);
         }
-    }
+    }*/
 
 
     void UpdateHUD()
@@ -95,17 +95,17 @@ public class Health : MonoBehaviour
         currentHealth -= damage;
     }
 
-    public void savePlayer()
+    /*public void savePlayer()
     {
         SaveSystem.Saveplayer(this);
-    }
-    public void LoadPlayer()
+    }*/
+    /*public void LoadPlayer()
     {
         PlayerData data = SaveSystem.LoadPlayer();
 
 
 
-        //playerHp = data.health;
+        playerHp = data.health;
 
         SceneManager.LoadScene(data.LV);
 
@@ -115,5 +115,5 @@ public class Health : MonoBehaviour
         position.z = data.position[2];
         transform.position = position;
 
-    }
+    }*/
 }
