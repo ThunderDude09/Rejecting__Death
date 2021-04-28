@@ -12,9 +12,13 @@ public class GhostEnemyMovement : MonoBehaviour
 
     public float playerRange;
 
+    public Transform hitbox;
+
     public LayerMask playerLayer;
 
     public bool playerInRange;
+
+    public float atkRange;
 
     private Vector2 Emovement;
 
@@ -71,13 +75,25 @@ public class GhostEnemyMovement : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere (transform.position, playerRange);
+        Gizmos.DrawWireSphere(transform.position, atkRange);
     }
 
-    private void OnTriggerEnter2D(Collision2D collision)
+    private void OnTriggerStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        attack();
+    }
+
+    private void attack()
+    {
+        Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(hitbox.position, atkRange, playerLayer);
+
+        foreach (Collider2D player in hitPlayer)
         {
-            collision.gameObject.GetComponent<Health>().takeDamage(6);
+            //enemy.clip = atkSound;
+            //enemy.Play();
+            Debug.Log("Hit" + player.name);
+            player.GetComponent<Health>().takeDamage(7);
+            //player.GetComponent<Rigidbody2D>().AddForce(new Vector2(transform.position.x, 0), ForceMode2D.Impulse);
         }
     }
 }

@@ -12,21 +12,18 @@ public class SickleThrow : MonoBehaviour
     public float projectileForce = 20f;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         if (Input.GetMouseButtonDown(1))
         {
             Throw();
         }
-    }
+    }*/
 
-    public void Throw()
+    public void Throw2()
     {
         GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();

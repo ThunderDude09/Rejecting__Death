@@ -51,7 +51,7 @@ public class playerActions : MonoBehaviour
         //Dan.SetBool("punch", false);
     }
 
-    public void DanShot()
+    /*public void DanShot()
     {
         mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
         player.clip = throwA;
@@ -59,7 +59,7 @@ public class playerActions : MonoBehaviour
         GameObject projectile = Instantiate(Projectile, Attackpoint.position, Attackpoint.rotation);
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
         rb.AddForce( new Vector2(mousePosition.x,transform.position.y) * tForce, ForceMode2D.Impulse);
-    }
+    }*/
     private void punch()
     {
         Dan.SetTrigger("Punch");
