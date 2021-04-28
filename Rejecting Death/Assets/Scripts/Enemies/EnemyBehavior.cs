@@ -11,6 +11,8 @@ public class EnemyBehavior : MonoBehaviour
     public float atkRange;
     public Transform hitbox;
     public float Health;
+    public AudioClip enemySound, atkSound;
+    public AudioSource enemy;
     #endregion
 
     #region Private Variables
@@ -155,6 +157,8 @@ public class EnemyBehavior : MonoBehaviour
 
     private void Die()
     {
+        enemy.clip = enemySound;
+        enemy.Play();
         anim.SetTrigger("die");
         
     }
@@ -182,6 +186,8 @@ public class EnemyBehavior : MonoBehaviour
 
         foreach (Collider2D player in hitPlayer)
         {
+            enemy.clip = atkSound;
+            enemy.Play();
             Debug.Log("Hit" + player.name);
             player.GetComponent<Health>().takeDamage(7);
             player.GetComponent<Rigidbody2D>().AddForce(new Vector2(transform.position.x, 0), ForceMode2D.Impulse);
