@@ -65,7 +65,7 @@ public class orderPuzzle : MonoBehaviour
         {
            // gm.clip = fanfare;
             Debug.Log("Correct");
-            //gm.Play();
+           // gm.Play();
              reward.SetActive(true);
         }
         else
