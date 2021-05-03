@@ -309,6 +309,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fdb55054367ac441b5ea7e5fcb21633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hit:
+    serializedVersion: 2
+    m_Bits: 0
+  range: 0.26
+  a: {fileID: 6491607583544490496}
 --- !u!58 &4711963055699887180
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -339,8 +344,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 4069484365867061293}
   rotateSpeed: 4
-  moveSpeed: 0
-  cam: {fileID: 0}
 --- !u!1 &8245467924778130309
 GameObject:
   m_ObjectHideFlags: 0
