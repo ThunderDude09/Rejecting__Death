@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 0
   m_Sprite: {fileID: 4448715427215634006, guid: 7e95556b2f42764499f6af12332bfbae,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -120,13 +120,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   MoveSpeed: 3
-  playerRange: 5
-  hitbox: {fileID: 5272740127092399264}
+  playerRange: 0
+  hitbox: {fileID: 0}
   playerLayer:
     serializedVersion: 2
     m_Bits: 512
   playerInRange: 0
-  atkRange: 1
+  atkRange: 0
 --- !u!114 &4456002763355001810
 MonoBehaviour:
   m_ObjectHideFlags: 0

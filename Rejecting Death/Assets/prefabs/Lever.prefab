@@ -102,9 +102,10 @@ MonoBehaviour:
   SwitchOff: {fileID: 6255968832437732806, guid: 3bcc08376c3c2f24495846c5a5f8553f,
     type: 3}
   isOn: 0
+  switchValue: 0
+  puzzleManager: {fileID: 0}
   lever: {fileID: 7569387225085603779}
-  swish: {fileID: 8300000, guid: 8d7e81ba6da6aab488082741e1de120a, type: 3}
-  switchvalue: 0
+  swish: {fileID: 8300000, guid: 99cc9d3457a61404bb0b4cdd4c2895cc, type: 3}
 --- !u!61 &7076081370906291966
 BoxCollider2D:
   m_ObjectHideFlags: 0

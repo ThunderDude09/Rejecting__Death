@@ -5,7 +5,7 @@ using UnityEngine;
 public class spin : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public float rotateSpeed;
+    public float rotateSpeed, moveSpeed;
     
     // Start is called before the first frame update
     void Start()
@@ -17,11 +17,17 @@ public class spin : MonoBehaviour
     void Update()
     {
 
-        rb.MoveRotation(rotateSpeed * Time.deltaTime);
+       //moveSpeed * Time.deltaTime;
+            //Vector3.MoveTowards(rb.position, mousePosition, 1000);
         
     }
 
-   
+    private void FixedUpdate()
+    {
+        
+        //Vector2 lookDir = mousePosition - rb.position;
+        //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+    }
 
 
 
