@@ -56,6 +56,7 @@ public class RoomDoor : MonoBehaviour
                 if (keyType == thePlayer.followingkey.GetComponent<key>().keyType)
                     thePlayer.followingkey.folowTarget = transform;
                 waitingtoOpen = true;
+                
             }
 
         }

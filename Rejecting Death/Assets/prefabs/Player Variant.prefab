@@ -115,6 +115,26 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4711380886888852357, guid: 28ac8f6f3665c734d983c6a425630694,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 5.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711380886888852358, guid: 28ac8f6f3665c734d983c6a425630694,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711380886888852358, guid: 28ac8f6f3665c734d983c6a425630694,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711380886888852358, guid: 28ac8f6f3665c734d983c6a425630694,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4711380886888852363, guid: 28ac8f6f3665c734d983c6a425630694,
         type: 3}
       propertyPath: m_LocalPosition.x
