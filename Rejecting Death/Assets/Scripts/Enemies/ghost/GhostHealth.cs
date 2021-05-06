@@ -16,21 +16,19 @@ public class GhostHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("FireProjectile"))
-        {
-            ghostHP -= 1;
-            Debug.Log("fire");
-            Destroy(collision.gameObject);
-        }
-
-        if(ghostHP == 0)
+        if(ghostHP <= 0)
         {
             Destroy(gameObject);
         }
+    }
+
+   
+
+
+    public void takeDamage(float damage)
+    {
+        ghostHP -= damage;
+        Debug.Log("fire");
+       
     }
 }

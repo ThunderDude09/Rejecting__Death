@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GhostEnemyMovement : MonoBehaviour
 {
+    [SerializeField]
+    private float time;
     //private Movement player;
 
     public Transform player;
@@ -16,6 +18,8 @@ public class GhostEnemyMovement : MonoBehaviour
 
     public LayerMask playerLayer;
 
+    private bool coolingoff;
+
     public bool playerInRange;
 
     public float atkRange;
@@ -23,6 +27,7 @@ public class GhostEnemyMovement : MonoBehaviour
     private Vector2 Emovement;
 
     private Rigidbody2D erb;
+
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +61,19 @@ public class GhostEnemyMovement : MonoBehaviour
             Pldirection.Normalize();
             Emovement = Pldirection;
         }
+
+
+      
+
+        if (coolingoff)
+        {
+            time -= Time.deltaTime;
+            if (time <= 0)
+            {
+                coolingoff = false;
+            }
+
+        }
     }
 
     private void FixedUpdate()
@@ -80,7 +98,11 @@ public class GhostEnemyMovement : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        attack();
+        if (!coolingoff)
+        {
+            attack();
+        }
+        
     }
 
     private void attack()
@@ -92,8 +114,16 @@ public class GhostEnemyMovement : MonoBehaviour
             //enemy.clip = atkSound;
             //enemy.Play();
             Debug.Log("Hit" + player.name);
-            player.GetComponent<Health>().takeDamage(7);
-            //player.GetComponent<Rigidbody2D>().AddForce(new Vector2(transform.position.x, 0), ForceMode2D.Impulse);
+            player.GetComponent<Health>().takeDamage(2);
+            coolingoff = true;
+            cooling();
+            
         }
+    }
+    void cooling()
+    {
+        int timer = 3;
+
+        time = timer;
     }
 }

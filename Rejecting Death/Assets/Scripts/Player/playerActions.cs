@@ -11,7 +11,7 @@ public class playerActions : MonoBehaviour
     public GameObject Projectile;
     public float tForce  = 20f;
     Vector2 mousePosition;
-    public Camera cam;
+    
     public AudioClip punchA, throwA;
     public AudioSource player;
         private void OnAudioFilterRead(float[] data, int channels)
@@ -53,7 +53,7 @@ public class playerActions : MonoBehaviour
 
     public void DanShot()
     {
-        mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+        
         player.clip = throwA;
         player.Play();
 

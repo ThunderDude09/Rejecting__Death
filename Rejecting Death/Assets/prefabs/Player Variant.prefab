@@ -15,7 +15,6 @@ MonoBehaviour:
   firePoint: {fileID: 3495337013563563293}
   projectilePrefab: {fileID: 7863196964432321927, guid: 90a06dcffba498a4b8b1ee6777d5642b,
     type: 3}
-  cooldownTime: 0
   projectileForce: 20
 --- !u!1001 &5747897639624200561
 PrefabInstance:

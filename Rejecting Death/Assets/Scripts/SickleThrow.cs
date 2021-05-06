@@ -7,7 +7,7 @@ public class SickleThrow : MonoBehaviour
     public Transform firePoint;
     public GameObject projectilePrefab;
 
-    public float cooldownTime;
+    //public float cooldownTime;
 
     public float projectileForce = 20f;
 

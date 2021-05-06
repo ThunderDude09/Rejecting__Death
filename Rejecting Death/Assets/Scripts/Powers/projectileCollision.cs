@@ -9,7 +9,7 @@ public class projectileCollision : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject, 7.0f);
+        Destroy(gameObject, 4.0f);
     }
 
     // Update is called once per frame
@@ -20,14 +20,7 @@ public class projectileCollision : MonoBehaviour
         {
 
         }
-        else if (collision.gameObject.CompareTag("Player"))
-        {
-
-        }
-        //else
-        //{
-        //    Destroy(gameObject);
-        //}
+        
         
     }
 
@@ -35,15 +28,21 @@ public class projectileCollision : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ghost"))
         {
+            collision.gameObject.GetComponent<GhostHealth>().takeDamage(2);
+
+        }
+        else if (collision.gameObject.CompareTag("DemonSword"))
+        {
+            collision.gameObject.GetComponent<EnemyBehavior>().TakeDamage(3);
 
         }
         else if (collision.gameObject.CompareTag("Player"))
         {
 
         }
-        //else
-        //{
-        //    Destroy(gameObject);
-        //}
-    }
+        else
+        {
+            Destroy(gameObject);
+        }
+        }
 }

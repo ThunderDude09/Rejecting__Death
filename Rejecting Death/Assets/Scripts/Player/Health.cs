@@ -43,6 +43,10 @@ public class Health : MonoBehaviour
         {
             damageTimer -= Time.deltaTime;
         }
+        else
+        {
+            damageTimer = 3;
+        }
     }
 
     public void TakeDamage(int damage)
@@ -52,7 +56,7 @@ public class Health : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("IceSpike"))
+        if (collision.gameObject.CompareTag("IceSpike")&& damageTimer == 0)
         {
             playerHp -= 1;
             Debug.Log(playerHp);
@@ -63,7 +67,7 @@ public class Health : MonoBehaviour
 
 
 
-        if (playerHp == 0)
+        if (playerHp <= 0)
         {
             SceneManager.LoadScene(goToLevel);
         }
@@ -87,7 +91,7 @@ public class Health : MonoBehaviour
 
     void UpdateHUD()
     {
-        bar.fillAmount = (float)playerHp / currentHealth;
+        bar.fillAmount =   currentHealth / (float)playerHp;
     }
 
     public void takeDamage(float damage)

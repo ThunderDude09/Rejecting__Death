@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5366965620851581360}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6742085106321360158}
   - component: {fileID: 4112190265442897219}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trigger area
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 8134903207176325043}
   - component: {fileID: 8753337266882076705}
   - component: {fileID: 5995739374651749497}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DEmonSword
   m_TagString: skeleton
   m_Icon: {fileID: 0}
@@ -403,7 +403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5233223772363018743}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: raycast
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
