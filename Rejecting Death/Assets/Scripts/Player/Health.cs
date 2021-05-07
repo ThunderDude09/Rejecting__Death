@@ -20,8 +20,8 @@ public class Health : MonoBehaviour
     
     float damageTimer;
 
-    [SerializeField]
-    float GhostEnemyDam = .5f;
+    //[SerializeField]
+    //float GhostEnemyDam = .5f;
    
     [SerializeField]
     Image bar;

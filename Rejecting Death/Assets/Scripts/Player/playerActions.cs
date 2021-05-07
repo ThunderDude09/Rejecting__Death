@@ -44,7 +44,7 @@ public class playerActions : MonoBehaviour
         {
             Debug.Log("Hit" + target.name);
             target.GetComponent<EnemyBehavior>().TakeDamage(7);
-            target.GetComponent<BossHealth>().TakeDamage(7);
+           // target.GetComponent<BossHealth>().TakeDamage(7);
            
 
         }

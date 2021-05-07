@@ -30,6 +30,12 @@ public class RoomDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+    }
+
+
+    void Gate()
+    {
         if (waitingtoOpen)
         {
             if (Vector3.Distance(thePlayer.followingkey.transform.position, transform.position) < 0.1f)
@@ -41,11 +47,10 @@ public class RoomDoor : MonoBehaviour
 
                 door.SetBool("Open", true);
 
-                
+
             }
         }
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

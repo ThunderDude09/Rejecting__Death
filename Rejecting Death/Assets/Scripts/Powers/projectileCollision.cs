@@ -29,20 +29,14 @@ public class projectileCollision : MonoBehaviour
         if (collision.gameObject.CompareTag("Ghost"))
         {
             collision.gameObject.GetComponent<GhostHealth>().takeDamage(2);
-
+            Destroy(gameObject);
         }
         else if (collision.gameObject.CompareTag("DemonSword"))
         {
             collision.gameObject.GetComponent<EnemyBehavior>().TakeDamage(3);
-
-        }
-        else if (collision.gameObject.CompareTag("Player"))
-        {
-
-        }
-        else
-        {
             Destroy(gameObject);
+
         }
-        }
+
+    }
 }

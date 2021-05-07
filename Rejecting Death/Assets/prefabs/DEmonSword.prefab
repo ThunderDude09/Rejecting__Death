@@ -273,7 +273,7 @@ MonoBehaviour:
   rightLimit: {fileID: 0}
   atkRange: 0.78
   hitbox: {fileID: 5366965620851581360}
-  Health: 100
+  Health: 21
   enemySound: {fileID: 8300000, guid: 176206902e0cb1f4096f7d85da3cbef5, type: 3}
   atkSound: {fileID: 8300000, guid: 57719fa90d2318544a7b163a3dc52622, type: 3}
   enemy: {fileID: 5995739374651749497}

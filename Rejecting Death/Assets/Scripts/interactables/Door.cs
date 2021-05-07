@@ -18,7 +18,7 @@ public class Door : MonoBehaviour
     
     key followingkey;
     public bool  waitingtoOpen;
-    int scoremod = 1;
+   // int scoremod = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,12 +43,15 @@ public class Door : MonoBehaviour
 
 
 
-                
+
                 GameObject.Destroy(gameObject);
             }
         }
     }
-
+    void Gate()
+    {
+       
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
