@@ -190,7 +190,7 @@ public class EnemyBehavior : MonoBehaviour
             enemy.Play();
             Debug.Log("Hit" + player.name);
             player.GetComponent<Health>().takeDamage(7);
-            player.GetComponent<Rigidbody2D>().AddForce(new Vector2(transform.position.x, 0), ForceMode2D.Impulse);
+            //player.GetComponent<Rigidbody2D>().AddForce(new Vector2(transform.position.x, 0), ForceMode2D.Impulse);
         }
 
     }

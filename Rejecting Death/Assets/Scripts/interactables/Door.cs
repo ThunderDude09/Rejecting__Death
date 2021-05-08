@@ -33,10 +33,10 @@ public class Door : MonoBehaviour
             if (Vector3.Distance(thePlayer.followingkey.transform.position, transform.position) < 0.1f)
             {
                 waitingtoOpen = false;
-
+                doorS.clip = doorSound;
                 thePlayer.followingkey.gameObject.SetActive(false);
                 thePlayer.followingkey = null;
-
+                doorS.Play();
                 door.SetBool("Open", true);
 
 
