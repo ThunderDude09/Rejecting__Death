@@ -71,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1799101123
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 35299ae81cdc3e74a97e2d5e2f7165f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -97,15 +97,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a99b10a17011db4686c5e62c0ea353d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzle: {fileID: 0}
+  switchValue: 0
   SwitchOn: {fileID: 2143030726940529150, guid: cf38a6cfcffd6cd41a304b8e12dee99d,
     type: 3}
   SwitchOff: {fileID: 6255968832437732806, guid: 3bcc08376c3c2f24495846c5a5f8553f,
     type: 3}
   isOn: 0
-  switchValue: 0
-  puzzleManager: {fileID: 0}
   lever: {fileID: 7569387225085603779}
-  swish: {fileID: 8300000, guid: 99cc9d3457a61404bb0b4cdd4c2895cc, type: 3}
+  swish: {fileID: 8300000, guid: 8d7e81ba6da6aab488082741e1de120a, type: 3}
 --- !u!61 &7076081370906291966
 BoxCollider2D:
   m_ObjectHideFlags: 0

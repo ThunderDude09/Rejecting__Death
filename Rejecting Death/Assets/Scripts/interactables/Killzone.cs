@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Killzone : MonoBehaviour
 {
-    [SerializeField]
-    int repeat = 0;
+//    [SerializeField]
+//    int repeat = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,13 +18,14 @@ public class Killzone : MonoBehaviour
     {
         
     }
-    public void OnTriggerEnter2D (Collider2D other)
+    
+    public void OnCollisionEnter2D(Collider2D other)
     {
         
-        if (other.gameObject.tag == "Player")
+        if (other.CompareTag("Player"))
         {
            Destroy(other);
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(5);
         }
         
     }

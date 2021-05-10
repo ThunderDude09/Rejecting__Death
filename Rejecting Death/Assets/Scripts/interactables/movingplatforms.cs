@@ -9,7 +9,8 @@ public class movingplatforms : MonoBehaviour
     public Vector3 nextSpot;
     //private bool moving;
 
-    private float moveSpeed = 1;
+    
+    public float moveSpeed = 1;
     // Start is called before the first frame update
     void Start()
     {

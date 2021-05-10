@@ -24,20 +24,15 @@ public class InfoMarks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(/*(Input.GetKeyDown("up")||Input.GetKeyDown(KeyCode.W)) &&*/ playerInRange)
-        {
-            if(DialogeBox.activeInHierarchy)
-            {
-                DialogeBox.SetActive(false);
+        //if(/*(Input.GetKeyDown("up")||Input.GetKeyDown(KeyCode.W)) &&*/ playerInRange)
+        //{
+            
+        //    else
+        //    {
                
-            }
-            else
-            {
-                DialogeBox.SetActive(true);
-                infoText.text = text;
                
-            }
-        }
+        //    }
+        //}
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -46,6 +41,8 @@ public class InfoMarks : MonoBehaviour
         {
             playerInRange = true;
             audioSource.Play();
+            DialogeBox.SetActive(true);
+            infoText.text = text;
         }
     }
 
@@ -53,8 +50,10 @@ public class InfoMarks : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            
             playerInRange = false;
             DialogeBox.SetActive(false);
+
            // audioSource.Play();
         }
     }

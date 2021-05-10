@@ -95,9 +95,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac681d9b490b0a1419350b2756904543, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theSR: {fileID: 2391452746487799189}
-  doorOpenSprite: {fileID: 21300000, guid: 05d23714bcbdfd947a62acd25c85d6a5, type: 3}
-  doorOpen: 0
+  door: {fileID: 0}
+  doorSound: {fileID: 0}
+  doorS: {fileID: 0}
+  keyType: 0
   waitingtoOpen: 0
 --- !u!61 &2391452746487799188
 BoxCollider2D:
